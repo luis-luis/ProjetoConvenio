@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="pt-br" data-bs-theme="dark">
 
 <head>
     <script src="/docs/5.3/assets/js/color-modes.js"></script>
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Pricing example · Bootstrap v5.3</title>
+    <title>Exemplo site convenio</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
 
@@ -26,6 +26,18 @@
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#712cf9">
 
+    <!-- Principal CSS do Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/app.css" rel="stylesheet">
+
+    <link href="css/stylehome.css" rel="stylesheet">
+
+    <!-- Estilos customizados para esse template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+    <!-- Estilos customizados para outras paginas -->
+    <link href="css/style.css" rel="stylesheet">
 
 
     <!-- Custom styles for this template -->
@@ -110,24 +122,20 @@
         <header>
             <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
                 <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img">
-                        <title>Bootstrap</title>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path>
-                    </svg>
-                    <span class="fs-4">Pricing example</span>
+                    <span class="fs-4">Exemplo site convenio</span>
                 </a>
 
                 <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Features</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Enterprise</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Support</a>
-                    <a class="py-2 link-body-emphasis text-decoration-none" href="#">Pricing</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Nossos Planos</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Quem somos</a>
+                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Contatos</a>
+                    <a class="py-2 link-body-emphasis text-decoration-none" href="#">Seja um parceiro</a>
                 </nav>
             </div>
 
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
-                <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+                <h1 class="display-4 fw-normal text-body-emphasis">Exemplo site convenio</h1>
+                <p class="fs-5 text-body-secondary">Esse é apenas um exemplo de como pode ficar seu site. Isso não representa o produto final</p>
             </div>
         </header>
 
@@ -136,15 +144,14 @@
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Free</h4>
+                            <h4 class="my-0 fw-normal">Iniciante</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <h1 class="card-title pricing-card-title">R$70<small class="text-body-secondary fw-light">/mês</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>10 users included</li>
-                                <li>2 GB of storage</li>
-                                <li>Email support</li>
-                                <li>Help center access</li>
+                                <li>Plano para até x animais inclusos</li>
+                                <li>Auxilio vet</li>
+                                <li>Suporte</li>
                             </ul>
                             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
                         </div>
@@ -156,12 +163,11 @@
                             <h4 class="my-0 fw-normal">Pro</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <h1 class="card-title pricing-card-title">R$150<small class="text-body-secondary fw-light">/mês</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>20 users included</li>
-                                <li>10 GB of storage</li>
-                                <li>Priority email support</li>
-                                <li>Help center access</li>
+                                <li>Plano para até x animais inclusos</li>
+                                <li>Auxilio vet priorizado</li>
+                                <li>Suporte 24h</li>
                             </ul>
                             <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                         </div>
@@ -170,37 +176,37 @@
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm border-primary">
                         <div class="card-header py-3 text-bg-primary border-primary">
-                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                            <h4 class="my-0 fw-normal">Ultimate</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <h1 class="card-title pricing-card-title">R$290<small class="text-body-secondary fw-light">/mês</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>30 users included</li>
-                                <li>15 GB of storage</li>
-                                <li>Phone and email support</li>
-                                <li>Help center access</li>
+                                <li>Plano para até x animais inclusos</li>
+                                <li>Auxilio vet priorizado</li>
+                                <li>Atendimento vet em sua casa</li>
+                                <li>Suporte 24h presencial ou telefone</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Fale conosco</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <h2 class="display-6 text-center mb-4">Compare plans</h2>
+            <h2 class="display-6 text-center mb-4">Compare os planos</h2>
 
             <div class="table-responsive">
                 <table class="table text-center">
                     <thead>
                         <tr>
                             <th style="width: 34%;"></th>
-                            <th style="width: 22%;">Free</th>
+                            <th style="width: 22%;">Iniciante</th>
                             <th style="width: 22%;">Pro</th>
-                            <th style="width: 22%;">Enterprise</th>
+                            <th style="width: 22%;">Ultimate</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" class="text-start">Public</th>
+                            <th scope="row" class="text-start">Publico</th>
                             <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
                                 </svg></td>
@@ -212,7 +218,7 @@
                                 </svg></td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Private</th>
+                            <th scope="row" class="text-start">Privado</th>
                             <td></td>
                             <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
@@ -225,7 +231,7 @@
 
                     <tbody>
                         <tr>
-                            <th scope="row" class="text-start">Permissions</th>
+                            <th scope="row" class="text-start">Permissões</th>
                             <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
                                 </svg></td>
@@ -237,7 +243,7 @@
                                 </svg></td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Sharing</th>
+                            <th scope="row" class="text-start">Compartilhamento</th>
                             <td></td>
                             <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
@@ -247,7 +253,7 @@
                                 </svg></td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Unlimited members</th>
+                            <th scope="row" class="text-start">Membros ilimitados</th>
                             <td></td>
                             <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" />
@@ -257,7 +263,7 @@
                                 </svg></td>
                         </tr>
                         <tr>
-                            <th scope="row" class="text-start">Extra security</th>
+                            <th scope="row" class="text-start">Segurança extra</th>
                             <td></td>
                             <td></td>
                             <td><svg class="bi" width="24" height="24">
@@ -307,7 +313,24 @@
             </div>
         </footer>
     </div>
+
+    <div class="content">
+        @yield('content')
+    </div>
+
+    @yield('javascript')
+
+    <!-- Principal JavaScript do Bootstrap
+================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="{{ asset('js/jquery.js')}}"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="{{ asset('js/popper.js')}}"></script>
+    <script src="{{ asset('js/bootstrap.js')}}"></script>
     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 </body>
 
