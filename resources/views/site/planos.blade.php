@@ -96,6 +96,142 @@
         </div>
     </header>
 
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Iniciante</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$70<small class="text-body-secondary fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Plano para até x animais inclusos</li>
+                            <li>Auxilio vet</li>
+                            <li>Suporte</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$150<small class="text-body-secondary fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Plano para até x animais inclusos</li>
+                            <li>Auxilio vet priorizado</li>
+                            <li>Suporte 24h</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Ultimate</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$290<small class="text-body-secondary fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Plano para até x animais inclusos</li>
+                            <li>Auxilio vet priorizado</li>
+                            <li>Atendimento vet em sua casa</li>
+                            <li>Suporte 24h presencial ou telefone</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Fale conosco</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="display-6 text-center mb-4">Compare os planos</h2>
+
+        <div class="table-responsive">
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th style="width: 34%;"></th>
+                        <th style="width: 22%;">Iniciante</th>
+                        <th style="width: 22%;">Pro</th>
+                        <th style="width: 22%;">Ultimate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="text-start">Publico</th>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-start">Privado</th>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <th scope="row" class="text-start">Permissões</th>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-start">Compartilhamento</th>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-start">Membros ilimitados</th>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-start">Segurança extra</th>
+                        <td></td>
+                        <td></td>
+                        <td><svg class="bi" width="24" height="24">
+                                <use xlink:href="#check" />
+                            </svg></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
             <div class="col-12 col-md">
