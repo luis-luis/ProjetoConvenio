@@ -1,0 +1,21 @@
+:root {
+    --bs-primary: #A8D5BA; /* Verde suave */
+    --bs-secondary: #F8EDEB; /* Bege claro */
+    --bs-body-bg: #FFFFFF; /* Fundo branco */
+    --bs-body-color: #4A4A4A; /* Texto escuro */
+    --bs-border-color: #E3D5CA; /* Bordas suaves */
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+.navbar {
+    background-color: var(--bs-primary);
+}
+
+footer {
+    background-color: var(--bs-secondary);
+    color: var(--bs-body-color);
+}

@@ -18,6 +18,7 @@
     <!-- Principal CSS do Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+
     <link href="css/app.css" rel="stylesheet">
 
     <link href="css/stylehome.css" rel="stylesheet">
@@ -28,6 +29,7 @@
     <!-- Estilos customizados para outras paginas -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- <link href="css/custom.css" rel="stylesheet"> Sobrescreve estilos -->
 
     <!-- Custom styles for this template -->
     <link href="pricing.css" rel="stylesheet">
