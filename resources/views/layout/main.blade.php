@@ -2,20 +2,9 @@
 <html lang="pt-br" data-bs-theme="dark">
 
 <head>
-    <script src="/docs/5.3/assets/js/color-modes.js"></script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
     <title>Exemplo site convenio</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
-
-    <link rel="stylesheet" href="/css@3">
-
-    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -46,7 +35,19 @@
 
 <body>
     @yield('content')
-    
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="container"> <!-- Adicionei uma div container -->
+        <div class="row">
+            <div class="col-12 col-md">
+                <svg class="mb-2" alt="" width="24" height="19"></svg>
+                <small class="d-block mb-3 text-body-secondary">&copy; 2025. Todos os direitos reservados.</small>
+            </div>
+        </div>
+    </div> <!-- Fechando corretamente a div -->
+</footer>
+
+
 
     @yield('javascript')
 
@@ -59,8 +60,8 @@
     </script>
     <script src="{{ asset('js/popper.js')}}"></script>
     <script src="{{ asset('js/bootstrap.js')}}"></script>
-    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <script src="{{ asset('bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('color-modes.js')}}"></script>
 
 </body>
 

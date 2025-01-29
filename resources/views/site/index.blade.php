@@ -36,7 +36,7 @@
                 <svg class="bi me-2 opacity-50" width="1em" height="1em">
                     <use href="#sun-fill"></use>
                 </svg>
-                Light
+                Claro
                 <svg class="bi ms-auto d-none" width="1em" height="1em">
                     <use href="#check2"></use>
                 </svg>
@@ -47,7 +47,7 @@
                 <svg class="bi me-2 opacity-50" width="1em" height="1em">
                     <use href="#moon-stars-fill"></use>
                 </svg>
-                Dark
+                Escuro
                 <svg class="bi ms-auto d-none" width="1em" height="1em">
                     <use href="#check2"></use>
                 </svg>
@@ -95,44 +95,6 @@
             <p class="fs-5 text-body-secondary">Esse é apenas um exemplo de como pode ficar seu site. Isso não representa o produto final</p>
         </div>
     </header>
-
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-            <div class="col-12 col-md">
-                <img class="mb-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
-                <small class="d-block mb-3 text-body-secondary">&copy; 2017–2024</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </div>
 
 @endsection

@@ -95,23 +95,6 @@
             <p class="fs-5 text-body-secondary">Esse é apenas um exemplo de como pode ficar seu site. Isso não representa o produto final</p>
         </div>
     </header>
-
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-            <div class="col-12 col-md">
-                <small class="d-block mb-3 text-body-secondary">&copy; 2025</small>
-            </div>
-            
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </div>
 
 @endsection
