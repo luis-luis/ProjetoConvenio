@@ -13,4 +13,4 @@ Route::get('/', [HomeController::class, 'index'])->name('site.index');
 
 Route::get('/planos', [PlanoController::class, 'index'])->name('site.planos');
 
-Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contatos');
+Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contatos2');
