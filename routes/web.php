@@ -6,7 +6,7 @@ use App\Http\Controllers\PlanoController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function(){
-//     return view('site.index');
+//     return view('layout.main2');
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('site.index');
