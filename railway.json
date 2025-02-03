@@ -1,0 +1,12 @@
+{
+    "build": {
+      "builder": "NIXPACKS",
+      "nixpacksPlan": {
+        "pkgs": ["php", "composer", "php81Packages.pdo_mysql", "nodejs"]
+      }
+    },
+    "deploy": {
+      "startCommand": "php artisan serve --host=0.0.0.0 --port=$PORT"
+    }
+  }
+  
