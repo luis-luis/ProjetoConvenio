@@ -20,11 +20,11 @@
 			<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
 				<div class="d-block services active text-center">
 					<div class="icon d-flex align-items-center justify-content-center">
-						<span class="flaticon-blind"></span>
+						<span class="fa-solid fa-money-bills"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Dog Walking</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+						<h3 class="heading">Planos com e sem cooparticipação</h3>
+						<p>Escolha entre planos com ou sem cooparticipação. Você escolhe!</p>
 						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
 					</div>
 				</div>
@@ -32,11 +32,11 @@
 			<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
 				<div class="d-block services text-center">
 					<div class="icon d-flex align-items-center justify-content-center">
-						<span class="flaticon-dog-eating"></span>
+						<span class="fa-solid fa-shield-cat"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Pet Daycare</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+						<h3 class="heading">Credenciamento protegido</h3>
+						<p>Depois de credenciar seu pet, ele já estará protegido.</p>
 						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
 					</div>
 				</div>
@@ -44,11 +44,11 @@
 			<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
 				<div class="d-block services text-center">
 					<div class="icon d-flex align-items-center justify-content-center">
-						<span class="flaticon-grooming"></span>
+						<span class="fa-solid fa-file-medical"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Pet Grooming</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+						<h3 class="heading">Escolha o melhor plano</h3>
+						<p>Simule o melhor plano personalizado para seu pet!</p>
 						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
 					</div>
 				</div>
@@ -66,34 +66,34 @@
 			</div>
 			<div class="col-md-7 pl-md-5 py-md-5">
 				<div class="heading-section pt-md-5">
-					<h2 class="mb-4">Why Choose Us?</h2>
+					<h2 class="mb-4">Porque nos escolher?</h2>
 				</div>
 				<div class="row">
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-stethoscope"></span></div>
 						<div class="text pl-3">
-							<h4>Care Advices</h4>
+							<h4>Bla bla bla texto</h4>
 							<p>Far far away, behind the word mountains, far from the countries.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-customer-service"></span></div>
 						<div class="text pl-3">
-							<h4>Customer Supports</h4>
+							<h4>Bla bla bla texto 2</h4>
 							<p>Far far away, behind the word mountains, far from the countries.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-emergency-call"></span></div>
 						<div class="text pl-3">
-							<h4>Emergency Services</h4>
+							<h4>Bla bla bla texto 3</h4>
 							<p>Far far away, behind the word mountains, far from the countries.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-veterinarian"></span></div>
 						<div class="text pl-3">
-							<h4>Veterinary Help</h4>
+							<h4>Bla bla bla texto 4</h4>
 							<p>Far far away, behind the word mountains, far from the countries.</p>
 						</div>
 					</div>
@@ -103,7 +103,7 @@
 	</div>
 </section>
 
-<section class="ftco-counter" id="section-counter">
+<!-- <section class="ftco-counter" id="section-counter">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
@@ -148,7 +148,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
@@ -167,15 +167,15 @@
 
 			<div class="col-lg-6">
 				<div class="heading-section mb-5 mt-5 mt-lg-0">
-					<h2 class="mb-3">Frequently Asks Questions</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<h2 class="mb-3">Dúvidas frequentes</h2>
+					<p>Confira as principais dúvida de quem vai assinar um plano pet</p>
 				</div>
 				<div id="accordion" class="myaccordion w-100" aria-multiselectable="true">
 					<div class="card">
 						<div class="card-header p-0" id="headingOne">
 							<h2 class="mb-0">
 								<button href="#collapseOne" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-									<p class="mb-0">How to train your pet dog?</p>
+									<p class="mb-0">Bla bla bla titulo do texto</p>
 									<i class="fa" aria-hidden="true"></i>
 								</button>
 							</h2>
@@ -183,11 +183,11 @@
 						<div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
 							<div class="card-body py-3 px-0">
 								<ol>
-									<li>Far far away, behind the word mountains</li>
-									<li>Consonantia, there live the blind texts</li>
-									<li>When she reached the first hills of the Italic Mountains</li>
-									<li>Bookmarksgrove, the headline of Alphabet Village</li>
-									<li>Separated they live in Bookmarksgrove right</li>
+									<li>Bla bla bla texto 2</li>
+									<li>Bla bla bla texto 2</li>
+									<li>Bla bla bla texto 2</li>
+									<li>Bla bla bla texto 2</li>
+									<li>Bla bla bla texto 2</li>
 								</ol>
 							</div>
 						</div>
@@ -197,7 +197,7 @@
 						<div class="card-header p-0" id="headingTwo" role="tab">
 							<h2 class="mb-0">
 								<button href="#collapseTwo" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-									<p class="mb-0">How to manage your pets?</p>
+									<p class="mb-0">Bla bla bla outro titulo</p>
 									<i class="fa" aria-hidden="true"></i>
 								</button>
 							</h2>
@@ -205,11 +205,11 @@
 						<div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="card-body py-3 px-0">
 								<ol>
-									<li>Far far away, behind the word mountains</li>
-									<li>Consonantia, there live the blind texts</li>
-									<li>When she reached the first hills of the Italic Mountains</li>
-									<li>Bookmarksgrove, the headline of Alphabet Village</li>
-									<li>Separated they live in Bookmarksgrove right</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
 								</ol>
 							</div>
 						</div>
@@ -219,7 +219,7 @@
 						<div class="card-header p-0" id="headingThree" role="tab">
 							<h2 class="mb-0">
 								<button href="#collapseThree" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-									<p class="mb-0">What is the best grooming for your pets?</p>
+									<p class="mb-0">Bla bla bla outro titulo de novo</p>
 									<i class="fa" aria-hidden="true"></i>
 								</button>
 							</h2>
@@ -227,11 +227,11 @@
 						<div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="card-body py-3 px-0">
 								<ol>
-									<li>Far far away, behind the word mountains</li>
-									<li>Consonantia, there live the blind texts</li>
-									<li>When she reached the first hills of the Italic Mountains</li>
-									<li>Bookmarksgrove, the headline of Alphabet Village</li>
-									<li>Separated they live in Bookmarksgrove right</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
+									<li>Bla bla bla outro texto</li>
 								</ol>
 							</div>
 						</div>
@@ -241,14 +241,14 @@
 						<div class="card-header p-0" id="headingFour" role="tab">
 							<h2 class="mb-0">
 								<button href="#collapseFour" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-									<p class="mb-0">What are those requirements for sitting pets?</p>
+									<p class="mb-0">Bla bla bla mais um titulo?</p>
 									<i class="fa" aria-hidden="true"></i>
 								</button>
 							</h2>
 						</div>
 						<div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="card-body py-3 px-0">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								<p>Bla bla bla esses texto são realmente necessários?</p>
 							</div>
 						</div>
 					</div>
@@ -263,7 +263,7 @@
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Happy Clients &amp; Feedbacks</h2>
+				<h2>Quem conhece, aprova</h2>
 			</div>
 		</div>
 		<div class="row ftco-animate">
@@ -273,12 +273,11 @@
 						<div class="testimony-wrap py-4">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
 							<div class="text">
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Bla bla bla outro texto de feedback</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+									<!-- <div class="user-img" style="background-image: url(images/person_1.jpg)"></div> -->
 									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<span class="position">Marketing Manager</span>
+										<p class="name">Roger S.</p>
 									</div>
 								</div>
 							</div>
@@ -288,12 +287,12 @@
 						<div class="testimony-wrap py-4">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
 							<div class="text">
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Bla bla bla outro texto</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+									<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)"></div> -->
 									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<span class="position">Marketing Manager</span>
+										<p class="name">Roberta M.</p>
+										<!-- <span class="position">Marketing Manager</span> -->
 									</div>
 								</div>
 							</div>
@@ -303,12 +302,12 @@
 						<div class="testimony-wrap py-4">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
 							<div class="text">
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Bla bla bla outro texto</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+									<!-- <div class="user-img" style="background-image: url(images/person_3.jpg)"></div> -->
 									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<span class="position">Marketing Manager</span>
+										<p class="name">Tatiane I.</p>
+										<!-- <span class="position">Marketing Manager</span> -->
 									</div>
 								</div>
 							</div>
@@ -318,12 +317,12 @@
 						<div class="testimony-wrap py-4">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
 							<div class="text">
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Bla bla bla outro texto</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+									<!-- <div class="user-img" style="background-image: url(images/person_1.jpg)"></div> -->
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
-										<span class="position">Marketing Manager</span>
+										<!-- <span class="position">Marketing Manager</span> -->
 									</div>
 								</div>
 							</div>
@@ -333,12 +332,12 @@
 						<div class="testimony-wrap py-4">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
 							<div class="text">
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Bla bla bla outro texto</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+									<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)"></div> -->
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
-										<span class="position">Marketing Manager</span>
+										<!-- <span class="position">Marketing Manager</span> -->
 									</div>
 								</div>
 							</div>
@@ -354,7 +353,7 @@
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Affordable Packages</h2>
+				<h2>Conheça nossos planos</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -416,7 +415,7 @@
 	</div>
 </section>
 
-<section class="ftco-section">
+<!-- <section class="ftco-section">
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
@@ -505,9 +504,9 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<section class="ftco-section bg-light">
+<!-- <section class="ftco-section bg-light">
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
@@ -559,7 +558,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
 	<div class="overlay"></div>

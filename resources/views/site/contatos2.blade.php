@@ -7,8 +7,7 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-end">
 			<div class="col-md-9 ftco-animate pb-5">
-				<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
-				<h1 class="mb-0 bread">Contact</h1>
+				<h1 class="mb-0 bread">Entre em contato conosco</h1>
 			</div>
 		</div>
 	</div>
@@ -18,7 +17,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-6 text-center mb-5">
-				<h2 class="heading-section">Contact Form #03</h2>
+				<h2 class="heading-section">Como nos encontrar</h2>
 			</div>
 		</div>
 		<div class="row justify-content-center">
@@ -31,17 +30,19 @@
 									<span class="fa fa-map-marker"></span>
 								</div>
 								<div class="text">
-									<p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+									<p><span>Nosso endereço:</span> Rua Sergipe 2138, São Cristóvão - Francisco Beltrão - PR </p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="dbox w-100 text-center">
 								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="fa fa-phone"></span>
+									<span class="fa-brands fa-whatsapp"></span>
 								</div>
 								<div class="text">
-									<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+									<p><span>WhatsApp:</span>
+										<a href="https://api.whatsapp.com/send/?phone=5546999099608&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20convenio&type=phone_number&app_absent=0">(46) 99909-9608</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -51,17 +52,17 @@
 									<span class="fa fa-paper-plane"></span>
 								</div>
 								<div class="text">
-									<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+									<p><span>Email</span> <a href="#">goodpet@gmail.com</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="dbox w-100 text-center">
 								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="fa fa-globe"></span>
+									<span class="fa-brands fa-instagram"></span>
 								</div>
 								<div class="text">
-									<p><span>Website</span> <a href="#">yoursite.com</a></p>
+									<p><span>Instagram</span> <a href="#">@goodpetconvenio</a></p>
 								</div>
 							</div>
 						</div>
@@ -69,7 +70,7 @@
 					<div class="row no-gutters">
 						<div class="col-md-7">
 							<div class="contact-wrap w-100 p-md-5 p-4">
-								<h3 class="mb-4">Contact Us</h3>
+								<h3 class="mb-4">Nos mande uma mensagem</h3>
 								<form method="POST" id="contactForm" name="contactForm" class="contactForm">
 									<div class="row">
 										<div class="col-md-6">
