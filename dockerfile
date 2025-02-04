@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install gd pdo pdo_mysql zip \
     && docker-php-ext-enable pdo_mysql
 
+# Instala o Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
 # Permissão para evitar erros ao rodar como root no Docker
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
