@@ -1,27 +1,27 @@
 # Usa a imagem oficial do PHP com Apache
 FROM php:8.2-apache
 
-# Instala extensões necessárias
+# Define o diretório de trabalho dentro do container
+WORKDIR /var/www/html
+
+# Instala extensões necessárias do PHP
 RUN apt-get update && apt-get install -y \
     libpng-dev libjpeg-dev libfreetype6-dev zip unzip curl libzip-dev \
     && docker-php-ext-install gd pdo pdo_mysql zip \
     && docker-php-ext-enable pdo_mysql
 
-# Instala Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+# Permissão para evitar erros ao rodar como root no Docker
+ENV COMPOSER_ALLOW_SUPERUSER=1
 
-# Define o diretório de trabalho dentro do container
-WORKDIR /var/www/html
-
-# Copia os arquivos do projeto para o container
+# Copia os arquivos do projeto para o container ANTES de rodar o Composer
 COPY . .
 
-# Instala as dependências do Laravel
-RUN composer install --no-dev --optimize-autoloader
-
-# Ajusta permissões para o Apache
+# Ajusta permissões antes do Composer
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 775 storage bootstrap/cache
+
+# Instala dependências do Laravel com otimização
+RUN composer install --no-dev --optimize-autoloader --no-progress
 
 # Expõe a porta padrão do Apache
 EXPOSE 80
