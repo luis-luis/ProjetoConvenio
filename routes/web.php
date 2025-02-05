@@ -14,3 +14,5 @@ Route::get('/', [HomeController::class, 'index'])->name('site.index');
 Route::get('/planos', [PlanoController::class, 'index'])->name('site.planos');
 
 Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contatos2');
+
+// Route::get('/404', [HomeController::class, 'error'])->name('site.error');
