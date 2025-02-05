@@ -16,6 +16,11 @@ class HomeController extends Controller
         //
     }
 
+    public function error()
+    {
+        return view ('site.error');
+    }
+
     public function store(Request $request)
     {
         //
