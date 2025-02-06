@@ -59,12 +59,25 @@
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="about.html" class="nav-link">Planos</a></li>
+          <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Credenciamento</a></li>
+          <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="pricing.html" class="nav-link">Para empresas</a></li>
+          <li class="nav-item"><a href="{{route('site.convenioempresa')}}" class="nav-link">Para empresas</a></li>
         </ul>
+
+        <div class="dropdown">
+          <button class="navbar-button btn btn-success ml-lg-3 mt-2 mt-lg-0 dropdown-toggle"
+            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Entrar
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Área do Tutor</a></li>
+            <li><a class="dropdown-item" href="#">Área da Rede Credenciada</a></li>
+          </ul>
+        </div>
+
+
       </div>
     </div>
   </nav>
@@ -155,8 +168,13 @@
     </svg></div>
 
 
+  <!-- jQuery e dependências -->
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
+
+  <!-- Plugins e bibliotecas -->
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/maskphone.js}"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
@@ -168,13 +186,15 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
+
+  <!-- Google Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
+
+  <!-- Scripts personalizados -->
   <script src="js/main.js"></script>
   <script src="js/scroll.js"></script>
-
-
-
+  <script src="js/carousel.js"></script>
 
 </body>
 
