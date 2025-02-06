@@ -173,8 +173,8 @@
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
 
   <!-- Plugins e bibliotecas -->
-  <script src="{{ asset('js/jquery.mask.min.js') }}"></script>
-  <script src="{{ asset('js/maskphone.js') }}"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/maskphone.js}"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
@@ -193,8 +193,8 @@
 
   <!-- Scripts personalizados -->
   <script src="js/main.js"></script>
-  <script src="{{ asset('js/scroll.js') }}"></script>
-  <script src="{{ asset('js/carousel.js') }}"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/carousel.js"></script>
 
 </body>
 
