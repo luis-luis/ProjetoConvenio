@@ -72,17 +72,15 @@
             Entrar
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Área do Tutor</a></li>
-            <li><a class="dropdown-item" href="#">Área da Rede Credenciada</a></li>
+            <li><a class="dropdown-item" href="naotemainda.html">Área do Tutor</a></li>
+            <li><a class="dropdown-item" href="naotemainda.html">Área da Rede Credenciada</a></li>
           </ul>
         </div>
 
 
       </div>
       <div class="ml-lg-3 mt-2 mt-lg-0">
-        <button type="button" class="btn btn-success">
-          Simule um plano
-        </button>
+        <a class="btn btn-success" href="naotemainda.html" role="button">Simule um plano</a>
       </div>
     </div>
   </nav>
