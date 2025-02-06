@@ -141,7 +141,7 @@
           <div class="block-23 mb-3">
             <ul>
               <li><span class="icon fa fa-map"></span><span class="text">Rua Sergipe 2138, São Cristóvão - Francisco Beltrão - PR</span></li>
-              <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(46) 99909-9608</span></a></li>
+              <li><a href="https://wa.me/5546999099608?text=Ola!%20Gostaria%20de%20saber%20mais%20sobre%20o%20convênio."><span class="icon fa fa-phone"></span><span class="text">(46) 99909-9608</span></a></li>
               <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">goodpet@gmail.com</span></a></li>
               <li><a href="https://www.flaticon.com/br/icones-gratis/veterinario" title="veterinário ícones">Veterinário ícones criados por Freepik - Flaticon</a></li>
             </ul>

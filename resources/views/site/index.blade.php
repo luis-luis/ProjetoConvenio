@@ -633,7 +633,7 @@
 	<div class="container">
 		<div class="row d-md-flex justify-content-end">
 			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
-				<h2 class="mb-4">Free Consultation</h2>
+				<h2 class="mb-4">Se interessou? Nos mande uma mensagem</h2>
 				<form action="#" class="appointment">
 					<div class="row">
 						<div class="col-md-12">
