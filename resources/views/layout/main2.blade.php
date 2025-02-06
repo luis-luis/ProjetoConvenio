@@ -61,9 +61,9 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Credenciamento</a></li>
+          <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="{{route('site.cadastros')}}" class="nav-link">Para empresas</a></li>
+          <li class="nav-item"><a href="{{route('site.convenioempresa')}}" class="nav-link">Para empresas</a></li>
         </ul>
 
         <div class="dropdown">
