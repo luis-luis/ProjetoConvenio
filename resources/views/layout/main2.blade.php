@@ -52,7 +52,7 @@
     </div>
   </div> -->
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="{{route('site.index')}}"><span class="flaticon-pawprint-1 mr-2"></span>Good Pet</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-bars"></span> Menu
@@ -78,6 +78,11 @@
         </div>
 
 
+      </div>
+      <div class="ml-lg-3 mt-2 mt-lg-0">
+        <button type="button" class="btn btn-success">
+          Simule um plano
+        </button>
       </div>
     </div>
   </nav>
