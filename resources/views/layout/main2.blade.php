@@ -52,7 +52,7 @@
     </div>
   </div> -->
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="{{route('site.index')}}"><span class="flaticon-pawprint-1 mr-2"></span>Good Pet</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-bars"></span> Menu
@@ -72,12 +72,15 @@
             Entrar
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Área do Tutor</a></li>
-            <li><a class="dropdown-item" href="#">Área da Rede Credenciada</a></li>
+            <li><a class="dropdown-item" href="naotemainda.html">Área do Tutor</a></li>
+            <li><a class="dropdown-item" href="naotemainda.html">Área da Rede Credenciada</a></li>
           </ul>
         </div>
 
 
+      </div>
+      <div class="ml-lg-3 mt-2 mt-lg-0">
+        <a class="btn btn-success" href="naotemainda.html" role="button">Simule um plano</a>
       </div>
     </div>
   </nav>
