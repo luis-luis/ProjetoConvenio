@@ -357,6 +357,9 @@
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<h2>Conheça nossos planos</h2>
 			</div>
+			<div class="d-lg-none">
+				<span style="font-size: 18px;">(Passe para o lado)</span>
+			</div>
 		</div>
 		<div class="row ftco-animate">
 			<div class="col-md-12">
@@ -422,6 +425,9 @@
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<h2>Planos sem Coparticipação</h2>
+			</div>
+			<div class="d-lg-none">
+				<span style="font-size: 18px;">(Passe para o lado)</span>
 			</div>
 		</div>
 		<div class="row ftco-animate">
