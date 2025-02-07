@@ -83,7 +83,7 @@
             </a>
 
             <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{{route('site.planos')}}">Nossos Planos</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Nossos Planos</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Quem somos</a>
                 <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Contatos</a>
                 <a class="py-2 link-body-emphasis text-decoration-none" href="#">Seja um parceiro</a>

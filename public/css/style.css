@@ -9803,3 +9803,8 @@ textarea.form-control {
       scroll-behavior: smooth;
   }
   
+  .subtext {
+    font-size: 0.85em;  /* Tamanho menor */
+    color: gray;        /* Cor cinza */
+    font-weight: normal; /* Não tão destacado */
+}

@@ -8,9 +8,30 @@ use Illuminate\Http\Request;
 class PlanoController extends Controller
 {
 
-    public function index()
+    public function plano1()
     {
-        return view('site.planos');
+        return view('site.plano1');
+    }
+
+    public function plano2()
+    {
+        return view('site.plano2');
+    }
+    public function plano3()
+    {
+        return view('site.plano3');
+    }
+    public function plano1sc()
+    {
+        return view('site.plano1sc');
+    }
+    public function plano2sc()
+    {
+        return view('site.plano2sc');
+    }
+    public function plano3sc()
+    {
+        return view('site.plano3sc');
     }
 
     public function create()
