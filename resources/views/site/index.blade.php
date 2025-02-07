@@ -352,68 +352,139 @@
 
 <!-- Planos novos -->
 <section id="planos" class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2>Conheça nossos planos</h2>
-            </div>
-        </div>
-        <div class="row ftco-animate">
-            <div class="col-md-12">
-                <div class="carousel-planos owl-carousel ftco-owl">
-                    <div class="item">
-                        <div class="block-7">
-                            <div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Personal</span>
-                                <span class="price"><sup>$</sup> <span class="number">49</span> <sub>/mês</sub></span>
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="block-7">
-                            <div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Business</span>
-                                <span class="price"><sup>$</sup> <span class="number">79</span> <sub>/mês</sub></span>
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
-                                    <li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
-                                    <li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
-                                    <li><span class="fa fa-check mr-2"></span>Priority Support</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="block-7">
-                            <div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Ultimate</span>
-                                <span class="price"><sup>$</sup> <span class="number">109</span> <sub>/mês</sub></span>
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
-                                    <li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
-                                    <li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
-                                    <li><span class="fa fa-check mr-2"></span>Premium Support</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- Fim do carrossel -->
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row justify-content-center pb-5 mb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h2>Conheça nossos planos</h2>
+			</div>
+		</div>
+		<div class="row ftco-animate">
+			<div class="col-md-12">
+				<div class="carousel-planos owl-carousel ftco-owl">
+
+					<div class="item">
+						<div class="block-7">
+							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+							<div class="text-center p-4">
+								<span class="excerpt d-block">Pet Inicial</span>
+								<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
+								<ul class="pricing-text mb-5">
+									<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+									<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+									<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+									<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+								</ul>
+								<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="block-7">
+							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
+							<div class="text-center p-4">
+								<span class="excerpt d-block">Pet Intermediário</span>
+								<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
+								<ul class="pricing-text mb-5">
+									<li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
+									<li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
+									<li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
+									<li><span class="fa fa-check mr-2"></span>Priority Support</li>
+								</ul>
+								<a href="{{route('site.plano-2')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="block-7">
+							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
+							<div class="text-center p-4">
+								<span class="excerpt d-block">Pet Avançado</span>
+								<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
+								<ul class="pricing-text mb-5">
+									<li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
+									<li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
+									<li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
+									<li><span class="fa fa-check mr-2"></span>Premium Support</li>
+								</ul>
+								<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+							</div>
+						</div>
+					</div>
+				</div> <!-- Fim do carrossel -->
+			</div>
+		</div>
+	</div>
+
+	<!-- Inicio Segundo Carrosel -->
+	<div class="container">
+		<div class="row justify-content-center pb-5 mb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h2>Planos sem Coparticipação</h2>
+			</div>
+		</div>
+		<div class="row ftco-animate">
+			<div class="col-md-12">
+				<div class="carousel-planos owl-carousel ftco-owl">
+					<div class="item">
+						<div class="block-7">
+							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+							<div class="text-center p-4">
+								<span class="excerpt d-block">Pet Inicial</span>
+								<span class="subtext">(sem coparticipação)</span>
+								<span class="price"><sup>R$</sup> <span class="number">49,90</span> <sub>/mês</sub></span>
+								<ul class="pricing-text mb-5">
+									<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+									<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+									<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+									<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+								</ul>
+								<a href="{{route('site.plano-1-sc')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="block-7">
+							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
+							<div class="text-center p-4">
+								<span class="excerpt d-block">Pet Intermediário</span>
+								<span class="subtext">(sem coparticipação)</span>
+								<span class="price"><sup>R$</sup> <span class="number">129,90</span> <sub>/mês</sub></span>
+								<ul class="pricing-text mb-5">
+									<li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
+									<li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
+									<li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
+									<li><span class="fa fa-check mr-2"></span>Priority Support</li>
+								</ul>
+								<a href="{{route('site.plano-2-sc')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="block-7">
+							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
+							<div class="text-center p-4">
+								<span class="excerpt d-block">Pet Avançado</span>
+								<span class="subtext">(sem coparticipação)</span>
+								<span class="price"><sup>R$</sup> <span class="number">199,90</span> <sub>/mês</sub></span>
+								<ul class="pricing-text mb-5">
+									<li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
+									<li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
+									<li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
+									<li><span class="fa fa-check mr-2"></span>Premium Support</li>
+								</ul>
+								<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Fim do Segundo Carrosel -->
+	</div>
 </section>
+
 
 
 <!-- Planos antigos -->

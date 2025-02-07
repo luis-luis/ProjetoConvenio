@@ -16,7 +16,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('site.index');
 
-Route::get('/planos', [PlanoController::class, 'index'])->name('site.planos');
+Route::get('/plano-pet-inicial', [PlanoController::class, 'plano1'])->name('site.plano-1');
+
+Route::get('/plano-pet-intermediario', [PlanoController::class, 'plano2'])->name('site.plano-2');
+
+Route::get('/plano-pet-avancado', [PlanoController::class, 'plano3'])->name('site.plano-3');
+
+Route::get('/plano-pet-inicial-sc', [PlanoController::class, 'plano1sc'])->name('site.plano-1-sc');
+
+Route::get('/plano-pet-intermediario-sc', [PlanoController::class, 'plano2sc'])->name('site.plano-2-sc');
+
+Route::get('/plano-3-avancado-sc', [PlanoController::class, 'plano3sc'])->name('site.plano-3-sc');
 
 Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contatos2');
 
