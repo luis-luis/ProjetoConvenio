@@ -22,7 +22,7 @@ $(document).ready(function(){
     // Quando o usuário desliza, reinicia o autoplay
     $(".owl-carousel").on("translated.owl.carousel", function () {
         owl.trigger("stop.owl.autoplay");
-        setTimeout(() => owl.trigger("play.owl.autoplay", [20000]), 100);
+        setTimeout(() => owl.trigger("play.owl.autoplay", [20000]), 500);
     });
 
 });
