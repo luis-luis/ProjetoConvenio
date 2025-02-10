@@ -177,7 +177,7 @@
 
   <!-- Plugins e bibliotecas -->
   <script src="js/jquery.mask.min.js"></script>
-  <script src="js/maskphone.js}"></script>
+  <script src="js/maskphone.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
