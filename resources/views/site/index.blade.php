@@ -25,7 +25,6 @@
 					<div class="media-body">
 						<h3 class="heading">Planos com e sem cooparticipação</h3>
 						<p>Escolha entre planos com ou sem cooparticipação. Você escolhe!</p>
-						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
 					</div>
 				</div>
 			</div>
@@ -37,7 +36,6 @@
 					<div class="media-body">
 						<h3 class="heading">Credenciamento protegido</h3>
 						<p>Depois de credenciar seu pet, ele já estará protegido.</p>
-						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
 					</div>
 				</div>
 			</div>
@@ -49,7 +47,6 @@
 					<div class="media-body">
 						<h3 class="heading">Escolha o melhor plano</h3>
 						<p>Simule o melhor plano personalizado para seu pet!</p>
-						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
 					</div>
 				</div>
 			</div>
