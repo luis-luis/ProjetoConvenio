@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    const owl = $('.owl-carousel');
     $(".carousel-planos").owlCarousel({
         loop: true,
         margin: 30,
