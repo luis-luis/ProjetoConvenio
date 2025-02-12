@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                gsap.to(window, { duration: 1, scrollTo: { y: targetElement, offsetY: 50 }, ease: "power2.inOut" });
+                gsap.to(window, { duration: 1, scrollTo: { y: targetElement, offsetY: -50 }, ease: "power2.inOut" });
             }
         });
     });
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const planosSection = document.getElementById("planos");
         if (planosSection) {
             setTimeout(() => {
-                gsap.to(window, { duration: 1, scrollTo: { y: planosSection, offsetY: 50 }, ease: "power2.inOut" });
+                gsap.to(window, { duration: 1, scrollTo: { y: planosSection, offsetY: -50 }, ease: "power2.inOut" });
             }, 500);
         }
     }
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const yOffset = -50;
                     const y = planosSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-                    gsap.to(window, { duration: 1, scrollTo: { y: planosSection, offsetY: 50 }, ease: "power2.inOut" });
+                    gsap.to(window, { duration: 1, scrollTo: { y: planosSection, offsetY: -50 }, ease: "power2.inOut" });
 
                 }
             } else {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const yOffset = -50;
                 const y = planosSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-                gsap.to(window, { duration: 1, scrollTo: { y: planosSection, offsetY: 50 }, ease: "power2.inOut" });
+                gsap.to(window, { duration: 1, scrollTo: { y: planosSection, offsetY: -50 }, ease: "power2.inOut" });
 
             }, 500);
         }
