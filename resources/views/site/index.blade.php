@@ -349,7 +349,8 @@
 
 <!-- Planos novos -->
 <section id="planos" class="ftco-section bg-light">
-	<div class="container">
+	<div class="h-[70vh] w-full flex justify-center items-center">aaaaaaaaaaa</div>
+	<!-- <div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<h2>Conheça nossos planos</h2>
@@ -412,12 +413,12 @@
 							</div>
 						</div>
 					</div>
-				</div> <!-- Fim do carrossel -->
+				</div>  Fim do carrossel 
 			</div>
 		</div>
 	</div>
 
-	<!-- Inicio Segundo Carrosel -->
+	 Inicio Segundo Carrosel 
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
@@ -484,8 +485,8 @@
 					</div>
 				</div>
 			</div>
-		</div> <!-- Fim do Segundo Carrosel -->
-	</div>
+		</div> Fim do Segundo Carrosel
+	</div>-->
 </section>
 
 
