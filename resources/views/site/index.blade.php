@@ -358,6 +358,7 @@
 				<span style="font-size: 18px;">(Passe para o lado)</span>
 			</div>
 		</div>
+		<!-- inicio carrosel -->
 		<div class="row ftco-animate">
 			<div class="col-md-12">
 				<div class="carousel-planos owl-carousel ftco-owl">

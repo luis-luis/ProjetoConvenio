@@ -137,7 +137,7 @@
           </ul>
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-          <h2 class="footer-heading">Venha nos conhecer</h2>
+          <h2 class="footer-heading">Onde ficamos?</h2>
           <div class="block-23 mb-3">
             <ul>
               <li><span class="icon fa fa-map"></span><span class="text">Rua Sergipe 2138, São Cristóvão - Francisco Beltrão - PR</span></li>
