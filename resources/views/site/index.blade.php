@@ -348,7 +348,8 @@
 
 
 <!-- Planos novos -->
-<section id="planos" class="ftco-section bg-light">
+<section id="planos" class="planos-section ftco-section bg-light">
+	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
@@ -358,12 +359,13 @@
 				<span style="font-size: 18px;">(Passe para o lado)</span>
 			</div>
 		</div>
+		<!-- inicio carrosel -->
 		<div class="row ftco-animate">
 			<div class="col-md-12">
 				<div class="carousel-planos owl-carousel ftco-owl">
 
 					<div class="item">
-						<div class="block-7">
+						<div class="block-7 planos-wrap py-4">
 							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
 							<div class="text-center p-4">
 								<span class="excerpt d-block">Pet Inicial</span>
@@ -380,7 +382,7 @@
 					</div>
 
 					<div class="item">
-						<div class="block-7">
+						<div class="block-7 planos-wrap py-4">
 							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
 							<div class="text-center p-4">
 								<span class="excerpt d-block">Pet Intermediário</span>
@@ -397,7 +399,7 @@
 					</div>
 
 					<div class="item">
-						<div class="block-7">
+						<div class="block-7 planos-wrap py-4">
 							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
 							<div class="text-center p-4">
 								<span class="excerpt d-block">Pet Avançado</span>
