@@ -418,7 +418,7 @@
 	</div>
 
 	 <!-- Inicio Segundo Carrosel  -->
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<h2>Planos sem Coparticipação</h2>
@@ -484,8 +484,8 @@
 					</div>
 				</div>
 			</div>
-		</div> <!-- Fim do Segundo Carrosel -->
-	</div>
+		</div> Fim do Segundo Carrosel -->
+	<!-- </div> -->
 </section>
 
 
