@@ -1,44 +1,84 @@
+// $(document).ready(function () {
+//     const owl = $('.owl-carousel');
+//     $(".carousel-planos").owlCarousel({
+//         loop: true,
+//         margin: 30,
+//         nav: true,
+//         dots: true,
+//         autoplay: true,
+//         autoplayTimeout: 8000, //8 segundos (tempo em ms)
+//         responsive: {
+//             0: {
+//                 items: 1
+//             },
+//             768: {
+//                 items: 2
+//             },
+//             1024: {
+//                 items: 3
+//             }
+//         }
+//     });
+
+//     $(".carousel-planos-2").owlCarousel({
+//         loop: true,
+//         margin: 30,
+//         nav: true,
+//         dots: true,
+//         autoplay: true,
+//         autoplayTimeout: 8000, //8 segundos (tempo em ms)
+//         responsive: {
+//             0: {
+//                 items: 1
+//             },
+//             768: {
+//                 items: 2
+//             },
+//             1024: {
+//                 items: 3
+//             }
+//         }
+//     });
+
 $(document).ready(function () {
-    const owl = $('.owl-carousel');
+    // First carousel
     $(".carousel-planos").owlCarousel({
         loop: true,
         margin: 30,
         nav: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 8000, //8 segundos (tempo em ms)
+        autoplayTimeout: 8000,
+        touchDrag: true,
+        mouseDrag: true,
+        smartSpeed: 500,
+        preventScrollOnTouch: 'force', // Prevents scroll issues
         responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            1024: {
-                items: 3
-            }
+            0: { items: 1 },
+            768: { items: 2 },
+            1024: { items: 3 }
         }
     });
 
+    // Second carousel
     $(".carousel-planos-2").owlCarousel({
         loop: true,
         margin: 30,
         nav: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 8000, //8 segundos (tempo em ms)
+        autoplayTimeout: 8000,
+        touchDrag: true,
+        mouseDrag: true,
+        smartSpeed: 500,
+        preventScrollOnTouch: 'force', // Prevents scroll issues
         responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            1024: {
-                items: 3
-            }
+            0: { items: 1 },
+            768: { items: 2 },
+            1024: { items: 3 }
         }
     });
+
 
     // // Quando o usuário desliza, reinicia o autoplay
     // $(".owl-carousel").on("translated.owl.carousel", function () {
