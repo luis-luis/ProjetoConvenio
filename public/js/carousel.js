@@ -53,6 +53,12 @@ $(document).ready(function () {
         mouseDrag: true,
         smartSpeed: 500,
         preventScrollOnTouch: 'force', // Prevents scroll issues
+
+        ondrag: function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+        },
+
         responsive: {
             0: { items: 1 },
             768: { items: 2 },
@@ -72,11 +78,22 @@ $(document).ready(function () {
         mouseDrag: true,
         smartSpeed: 500,
         preventScrollOnTouch: 'force', // Prevents scroll issues
+
+        ondrag: function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+        },
+
         responsive: {
             0: { items: 1 },
             768: { items: 2 },
             1024: { items: 3 }
         }
+    });
+
+    // Prevent default touch behavior on carousel
+    $('.owl-carousel').on('touchstart touchmove', function (e) {
+        e.stopPropagation();
     });
 
 
