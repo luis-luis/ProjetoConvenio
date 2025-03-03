@@ -16,8 +16,8 @@
 
   <link rel="stylesheet" href="css/animate.css">
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/splide.min.css">
+
   <link rel="stylesheet" href="css/magnific-popup.css">
 
 
@@ -52,7 +52,7 @@
     </div>
   </div> -->
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="{{route('site.index')}}"><span class="flaticon-pawprint-1 mr-2"></span>Good Pet</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-bars"></span> Menu
@@ -173,10 +173,11 @@
 
   <!-- jQuery e dependências -->
   <script src="js/jquery.min.js"></script>
+  <script src="js/splide.min.js"></script>
+  <script src="js/carousel.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
 
   <!-- Plugins e bibliotecas -->
-  <script src="js/owl.carousel.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
@@ -191,7 +192,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
-  <!-- <script src="js/scrollax.min.js"></script> -->
+  <script src="js/scrollax.min.js"></script>
 
   <!-- Google Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>

@@ -8,7 +8,7 @@
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 			<div class="col-md-11 ftco-animate text-center">
 				<h1 class="mb-4" style="text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.3);"> Todo cuidado e carinho para o seu pet bonzinho. Somos GoodPet </h1>
-				<p><a href="#" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p>
+				<p><a href="#section-counter" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p>
 			</div>
 		</div>
 	</div>
@@ -256,308 +256,123 @@
 </section>
 
 <section class="ftco-section testimony-section" style="background-image: url('images/bg_2.jpg');">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Quem conhece, aprova</h2>
-			</div>
-		</div>
-		<div class="row ftco-animate">
-			<div class="col-md-12">
-				<div class="carousel-testimony owl-carousel ftco-owl">
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto de feedback</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_1.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roger S.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roberta M.</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_3.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Tatiane I.</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_1.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2>Quem conhece, aprova</h2>
+            </div>
+        </div>
+        <div class="row ftco-animate">
+            <div class="col-md-12">
+                <div class="splide carousel-testimony">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="testimony-wrap py-4">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p class="mb-4">Bla bla bla outro texto de feedback</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="pl-3">
+                                                <p class="name">Roger S.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="testimony-wrap py-4">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p class="mb-4">Bla bla bla outro texto</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="pl-3">
+                                                <p class="name">Roberta M.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Add more testimonials following the same pattern -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
 <!-- Planos novos -->
-<section id="planos" class="planos-section ftco-section bg-light">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Conheça nossos planos</h2>
-			</div>
-			<div class="d-lg-none">
-				<span style="font-size: 18px;">(Passe para o lado)</span>
-			</div>
-		</div>
-		<!-- inicio carrosel -->
-		<div class="row ftco-animate">
-			<div class="col-md-12">
-				<div class="carousel-planos owl-carousel ftco-owl">
-
-					<div class="item">
-						<div class="block-7 planos-wrap py-4">
-							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Inicial</span>
-								<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-								</ul>
-								<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="block-7 planos-wrap py-4">
-							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Intermediário</span>
-								<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Priority Support</li>
-								</ul>
-								<a href="{{route('site.plano-2')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="block-7 planos-wrap py-4">
-							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Avançado</span>
-								<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Premium Support</li>
-								</ul>
-								<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-				</div>  <!-- Fim do carrossel -->
-			</div>
-		</div>
-	</div>
-
-	 <!-- Inicio Segundo Carrosel  -->
-	<!-- <div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Planos sem Coparticipação</h2>
-			</div>
-			<div class="d-lg-none">
-				<span style="font-size: 18px;">(Passe para o lado)</span>
-			</div>
-		</div>
-		<div class="row ftco-animate">
-			<div class="col-md-12">
-				<div class="carousel-planos-2 owl-carousel ftco-owl">
-					<div class="item">
-						<div class="block-7">
-							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Inicial</span>
-								<span class="subtext">(sem coparticipação)</span>
-								<span class="price"><sup>R$</sup> <span class="number">49,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-								</ul>
-								<a href="{{route('site.plano-1-sc')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="block-7">
-							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Intermediário</span>
-								<span class="subtext">(sem coparticipação)</span>
-								<span class="price"><sup>R$</sup> <span class="number">129,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Priority Support</li>
-								</ul>
-								<a href="{{route('site.plano-2-sc')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="block-7">
-							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Avançado</span>
-								<span class="subtext">(sem coparticipação)</span>
-								<span class="price"><sup>R$</sup> <span class="number">199,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Premium Support</li>
-								</ul>
-								<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> Fim do Segundo Carrosel -->
-	<!-- </div> -->
+<section id="planos" class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2>Conheça nossos planos</h2>
+            </div>
+        </div>
+        <div class="splide pricing-carousel">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="block-7">
+                            <div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+                            <div class="text-center p-4">
+                                <span class="excerpt d-block">Pet Inicial</span>
+                                <span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mes</sub></span>
+                                <ul class="pricing-text mb-5">
+                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="block-7">
+                            <div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
+                            <div class="text-center p-4">
+                                <span class="excerpt d-block">Pet Intermediario</span>
+                                <span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mes</sub></span>
+                                <ul class="pricing-text mb-5">
+                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="block-7">
+                            <div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
+                            <div class="text-center p-4">
+                                <span class="excerpt d-block">Pet Avançado</span>
+                                <span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mes</sub></span>
+                                <ul class="pricing-text mb-5">
+                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Repeat for other plans -->
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
-
-
-
-<!-- Planos antigos -->
-<!-- <section id="planos" class="ftco-section bg-light">
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Conheça nossos planos</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 ftco-animate">
-				<div class="block-7">
-					<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-					<div class="text-center p-4">
-						<span class="excerpt d-block">Personal</span>
-						<span class="price"><sup>$</sup> <span class="number">49</span> <sub>/mos</sub></span>
-
-						<ul class="pricing-text mb-5">
-							<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-							<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-							<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-							<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-						</ul>
-
-						<a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="block-7">
-					<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-					<div class="text-center p-4">
-						<span class="excerpt d-block">Business</span>
-						<span class="price"><sup>$</sup> <span class="number">79</span> <sub>/mos</sub></span>
-
-						<ul class="pricing-text mb-5">
-							<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-							<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-							<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-							<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-						</ul>
-
-						<a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="block-7">
-					<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-					<div class="text-center p-4">
-						<span class="excerpt d-block">Ultimate</span>
-						<span class="price"><sup>$</sup> <span class="number">109</span> <sub>/mos</sub></span>
-
-						<ul class="pricing-text mb-5">
-							<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-							<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-							<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-							<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-						</ul>
-
-						<a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 <!-- <section class="ftco-section">
 	<div class="container">
