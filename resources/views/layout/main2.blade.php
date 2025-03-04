@@ -75,13 +75,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-<<<<<<< Updated upstream
           <h2 class="footer-heading">Good Pet</h2>
           <p>Conheça mais sobre nós em nossas redes sociais!</p>
-=======
-          <h2 class="footer-heading">Venha nos conhecer</h2>
-          <p>Somos o seu mais novo convênio pet. Conheça nossas redes</p>
->>>>>>> Stashed changes
           <ul class="ftco-footer-social p-0">
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
