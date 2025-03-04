@@ -1,12 +1,20 @@
 <!DOCTYPE html>
+<<<<<<< Updated upstream
 <html lang="pt-br">
+=======
+<html lang="en">
+>>>>>>> Stashed changes
 
 <head>
   <title>GoodPet - O Seu Convênio Pet</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<<<<<<< Updated upstream
   <link rel="icon" href="images/veterinario.png" type="image/png">
+=======
+  <link rel="icon" href="{{ asset('veterinario.png')}}" type="image/png">
+>>>>>>> Stashed changes
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -30,6 +38,7 @@
 
 <body id="topo">
 
+<<<<<<< Updated upstream
   <!-- <div class="wrap">
     <div class="container">
       <div class="row">
@@ -55,6 +64,9 @@
   <!-- navbar -->
 
   <!-- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+=======
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+>>>>>>> Stashed changes
     <div class="container-fluid">
       <a class="navbar-brand" href="{{route('site.index')}}"><span class="flaticon-pawprint-1 mr-2"></span>Good Pet</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,6 +74,7 @@
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
+<<<<<<< Updated upstream
           <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
@@ -87,6 +100,17 @@
       </div>
     </div>
   </nav> -->
+=======
+          <li class="nav-item"><a href="about.html" class="nav-link">Planos</a></li>
+          <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Credenciamento</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Para empresas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+>>>>>>> Stashed changes
   <!-- END nav -->
 
   @yield('content')
@@ -95,14 +119,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+<<<<<<< Updated upstream
           <h2 class="footer-heading">Good Pet</h2>
           <p>Conheça mais sobre nós em nossas redes sociais!</p>
+=======
+          <h2 class="footer-heading">Venha nos conhecer</h2>
+          <p>Somos o seu mais novo convênio pet. Conheça nossas redes</p>
+>>>>>>> Stashed changes
           <ul class="ftco-footer-social p-0">
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
           </ul>
         </div>
+<<<<<<< Updated upstream
         <!-- <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
           <h2 class="footer-heading">Latest News</h2>
           <div class="block-21 mb-4 d-flex">
@@ -128,6 +158,9 @@
             </div>
           </div>
         </div> -->
+=======
+
+>>>>>>> Stashed changes
         <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
           <!-- <h2 class="footer-heading">Quick Links</h2> -->
           <ul class="list-unstyled">
@@ -140,11 +173,19 @@
           </ul>
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+<<<<<<< Updated upstream
           <h2 class="footer-heading">Onde ficamos?</h2>
           <div class="block-23 mb-3">
             <ul>
               <li><span class="icon fa fa-map"></span><span class="text">Rua Sergipe 2138, São Cristóvão - Francisco Beltrão - PR</span></li>
               <li><a href="https://wa.me/5546999099608?text=Ola!%20Gostaria%20de%20saber%20mais%20sobre%20o%20convênio."><span class="icon fa fa-phone"></span><span class="text">(46) 99909-9608</span></a></li>
+=======
+          <h2 class="footer-heading">Venha nos conhecer</h2>
+          <div class="block-23 mb-3">
+            <ul>
+              <li><span class="icon fa fa-map"></span><span class="text">Rua Sergipe 2138, São Cristóvão - Francisco Beltrão - PR</span></li>
+              <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(46) 99909-9608</span></a></li>
+>>>>>>> Stashed changes
               <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">goodpet@gmail.com</span></a></li>
               <li><a href="https://www.flaticon.com/br/icones-gratis/veterinario" title="veterinário ícones">Veterinário ícones criados por Freepik - Flaticon</a></li>
             </ul>
@@ -174,11 +215,15 @@
     </svg></div>
 
 
+<<<<<<< Updated upstream
   <!-- jQuery e dependências -->
+=======
+>>>>>>> Stashed changes
   <script src="js/jquery.min.js"></script>
   <script src="js/splide.min.js"></script>
   <script src="js/carousel.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
+<<<<<<< Updated upstream
 
   <!-- Plugins e bibliotecas -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
@@ -186,6 +231,8 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
   <script src="js/jquery.mask.min.js"></script>
   <script src="js/maskphone.js"></script>
+=======
+>>>>>>> Stashed changes
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
@@ -196,6 +243,7 @@
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
+<<<<<<< Updated upstream
 
   <!-- Google Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
@@ -205,6 +253,15 @@
   <script src="js/main.js"></script>
   <script src="js/scroll.js"></script>
   <script src="js/carousel.js"></script>
+=======
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/scroll.js"></script>
+
+
+
+>>>>>>> Stashed changes
 
 </body>
 

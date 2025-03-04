@@ -181,6 +181,7 @@
 
 })(jQuery);
 
+<<<<<<< Updated upstream
 
 // Rolagem para seção de planos 
 document.addEventListener("DOMContentLoaded", function() {
@@ -197,3 +198,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+=======
+>>>>>>> Stashed changes

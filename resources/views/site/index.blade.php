@@ -18,13 +18,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
+<<<<<<< Updated upstream
 				<div class="d-block services text-center">
+=======
+				<div class="d-block services active text-center">
+>>>>>>> Stashed changes
 					<div class="icon d-flex align-items-center justify-content-center">
 						<span class="fa-solid fa-money-bills"></span>
 					</div>
 					<div class="media-body">
 						<h3 class="heading">Planos com e sem cooparticipação</h3>
 						<p>Escolha entre planos com ou sem cooparticipação. Você escolhe!</p>
+<<<<<<< Updated upstream
+=======
+						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+>>>>>>> Stashed changes
 					</div>
 				</div>
 			</div>
@@ -36,6 +44,10 @@
 					<div class="media-body">
 						<h3 class="heading">Credenciamento protegido</h3>
 						<p>Depois de credenciar seu pet, ele já estará protegido.</p>
+<<<<<<< Updated upstream
+=======
+						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+>>>>>>> Stashed changes
 					</div>
 				</div>
 			</div>
@@ -47,6 +59,10 @@
 					<div class="media-body">
 						<h3 class="heading">Escolha o melhor plano</h3>
 						<p>Simule o melhor plano personalizado para seu pet!</p>
+<<<<<<< Updated upstream
+=======
+						<a href="#" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+>>>>>>> Stashed changes
 					</div>
 				</div>
 			</div>
@@ -100,6 +116,7 @@
 	</div>
 </section>
 
+<<<<<<< Updated upstream
 <!-- <section class="ftco-counter" id="section-counter">
 	<div class="container">
 		<div class="row">
@@ -162,6 +179,23 @@
 				</div>
 			</div>
 
+=======
+<section class="ftco-section bg-light ftco-faqs">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 order-md-last">
+				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
+					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+						<span class="fa fa-play"></span>
+					</a>
+				</div>
+				<div class="d-flex mt-3">
+					<div class="img img-2 mr-md-2" style="background-image:url(images/about-2.jpg);"></div>
+					<div class="img img-2 ml-md-2" style="background-image:url(images/about-3.jpg);"></div>
+				</div>
+			</div>
+
+>>>>>>> Stashed changes
 			<div class="col-lg-6">
 				<div class="heading-section mb-5 mt-5 mt-lg-0">
 					<h2 class="mb-3">Dúvidas frequentes</h2>
@@ -308,8 +342,12 @@
 </section>
 
 
+<<<<<<< Updated upstream
 <!-- Planos novos -->
 <section id="planos" class="ftco-section bg-light">
+=======
+<section class="ftco-section bg-light">
+>>>>>>> Stashed changes
     <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
@@ -323,14 +361,20 @@
                         <div class="block-7">
                             <div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
                             <div class="text-center p-4">
+<<<<<<< Updated upstream
                                 <span class="excerpt d-block">Pet Inicial</span>
                                 <span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mes</sub></span>
+=======
+                                <span class="excerpt d-block">Personal</span>
+                                <span class="price"><sup>$</sup> <span class="number">49</span> <sub>/mos</sub></span>
+>>>>>>> Stashed changes
                                 <ul class="pricing-text mb-5">
                                     <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
                                     <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
                                     <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
                                     <li><span class="fa fa-check mr-2"></span>Free Supports</li>
                                 </ul>
+<<<<<<< Updated upstream
                                 <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
                             </div>
                         </div>
@@ -364,6 +408,9 @@
                                     <li><span class="fa fa-check mr-2"></span>Free Supports</li>
                                 </ul>
                                 <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
+=======
+                                <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
+>>>>>>> Stashed changes
                             </div>
                         </div>
                     </li>
@@ -374,6 +421,7 @@
     </div>
 </section>
 
+<<<<<<< Updated upstream
 <!-- <section class="ftco-section">
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
@@ -519,12 +567,18 @@
 	</div>
 </section> -->
 
+=======
+>>>>>>> Stashed changes
 <section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row d-md-flex justify-content-end">
 			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
+<<<<<<< Updated upstream
 				<h2 class="mb-4">Se interessou? Nos mande uma mensagem</h2>
+=======
+				<h2 class="mb-4">Free Consultation</h2>
+>>>>>>> Stashed changes
 				<form action="#" class="appointment">
 					<div class="row">
 						<div class="col-md-12">

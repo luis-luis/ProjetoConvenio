@@ -18,6 +18,7 @@ Route::get('/', [HomeController::class, 'index'])->name('site.index');
 
 Route::get('/plano-pet-inicial', [PlanoController::class, 'plano1'])->name('site.plano-1');
 
+<<<<<<< Updated upstream
 Route::get('/plano-pet-intermediario', [PlanoController::class, 'plano2'])->name('site.plano-2');
 
 Route::get('/plano-pet-avancado', [PlanoController::class, 'plano3'])->name('site.plano-3');
@@ -33,3 +34,6 @@ Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contato
 Route::get('/para-empresas',[ConvenioEmpresaController::class, 'index'])->name('site.convenioempresa');
 
 Route::get('/credenciamento',[CredenciamentoController::class, 'index'])->name('site.credenciamentos');
+=======
+Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contatos2');
+>>>>>>> Stashed changes

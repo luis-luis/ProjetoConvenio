@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // document.addEventListener("DOMContentLoaded", function () {
 //     document.querySelectorAll("a[href^='#']").forEach(anchor => {
 //         anchor.addEventListener("click", function (e) {
@@ -102,4 +103,13 @@ document.addEventListener("DOMContentLoaded", function () {
             smoothScroll(document.getElementById("planos"));
         }, 500);
     }
+=======
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+>>>>>>> Stashed changes
 });
