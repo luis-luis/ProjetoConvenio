@@ -40,7 +40,7 @@
         <ul class="navbar-nav ml-auto">
         
 
-          <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
+          <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Blog</a></li>
