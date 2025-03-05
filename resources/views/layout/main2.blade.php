@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="css/animate.css">
 
   <link rel="stylesheet" href="css/splide.min.css">
-
   <link rel="stylesheet" href="css/magnific-popup.css">
 
 
@@ -41,7 +40,8 @@
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-<<<<<<< Updated upstream
+        
+
           <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
@@ -76,26 +76,27 @@
       <div class="row">
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
           <h2 class="footer-heading">Good Pet</h2>
-          <p>Conheça mais sobre nós em nossas redes sociais!</p>
+          <p>Conheça nossas redes sociais!</p>
           <ul class="ftco-footer-social p-0">
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
           </ul>
-</div>
+        </div>
+        
         <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
           <!-- <h2 class="footer-heading">Quick Links</h2> -->
           <ul class="list-unstyled">
-            <li><a href="#" class="py-2 d-block">Termos de uso</a></li>
-            <li><a href="#" class="py-2 d-block">Politica de privacidade</a></li>
-            <li><a href="#" class="py-2 d-block">Blog</a></li>
+            <li><a href="#naoexiste" class="py-2 d-block">Termos de uso</a></li>
+            <li><a href="#naoexiste" class="py-2 d-block">Politica de privacidade</a></li>
+            <li><a href="#naoexiste" class="py-2 d-block">Blog</a></li>
             <li><a href="{{ route('site.contatos2')}}" class="py-2 d-block">Contato</a></li>
-            <li><a href="#" class="py-2 d-block">Carreiras</a></li>
+            <li><a href="#naoexiste" class="py-2 d-block">Carreiras</a></li>
             <li><a href="#topo" class="py-2 d-block">Como funciona</a></li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-          <h2 class="footer-heading">Onde ficamos?</h2>
+          <h2 class="footer-heading">Venha nos conhecer</h2>
           <div class="block-23 mb-3">
             <ul>
               <li><span class="icon fa fa-map"></span><span class="text">Rua Sergipe 2138, São Cristóvão - Francisco Beltrão - PR</span></li>
@@ -152,10 +153,6 @@
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-
-  <!-- Google Maps -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
 
   <!-- Scripts personalizados -->
   <script src="js/main.js"></script>

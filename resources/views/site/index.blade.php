@@ -99,6 +99,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
 		<div class="row">
@@ -259,71 +260,66 @@
 </section>
 
 <!-- Planos novos -->
-<section id="planos" class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2>Conheça nossos planos</h2>
-            </div>
-        </div>
-        <div class="splide pricing-carousel">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide">
-                        <div class="block-7">
-                            <div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Pet Inicial</span>
-                                <span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mes</sub></span>
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="block-7">
-                            <div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Pet Intermediario</span>
-                                <span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mes</sub></span>
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="block-7">
-                            <div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Pet Avançado</span>
-                                <span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mes</sub></span>
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-                                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-                                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Saiba Mais</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- Repeat for other plans -->
-                </ul>
-            </div>
-        </div>
-    </div>
+
+<section id="planos" class="planos-section ftco-section bg-light">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row justify-content-center pb-5 mb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h2>Conheça nossos planos</h2>
+			</div>
+			<div class="d-lg-none">
+				<span style="font-size: 18px;">(Passe para o lado)</span>
+			</div>
+		</div>
+		<!-- inicio carrosel -->
+		<div class="row ftco-animate">
+			<div class="col-md-12">
+				<div class="splide carousel-planos">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<!-- First Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Inicial</span>
+										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
+										<ul class="pricing-text mb-5">
+											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+										</ul>
+										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+									</div>
+								</div>
+							</li>
+
+							<!-- Second Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<!-- Keep existing content, just wrap in splide__slide -->
+									<!-- Your existing plan content here -->
+								</div>
+							</li>
+
+							<!-- Third Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<!-- Keep existing content, just wrap in splide__slide -->
+									<!-- Your existing plan content here -->
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </section>
-                  
+
 <section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
 	<div class="overlay"></div>
 	<div class="container">

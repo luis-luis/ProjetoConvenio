@@ -1,68 +1,59 @@
-<<<<<<< Updated upstream
-document.addEventListener('DOMContentLoaded', function() {
-    // Testimonials carousel
-=======
 document.addEventListener('DOMContentLoaded', function () {
-    new Splide('.pricing-carousel', {
+    // Plans carousel
+    new Splide('.carousel-planos', {
+        type: 'loop',
         perPage: 3,
+        perMove: 1,
         gap: '2rem',
-        breakpoints: {
-            768: {
-                perPage: 1,
-            },
-            992: {
-                perPage: 2,
-            }
-        },
+        autoplay: true,
+        interval: 8000,
+        speed: 500,
+        drag: true,
         pagination: true,
         arrows: true,
-        type: 'loop',
-        autoplay: true,
-        interval: 4000,
-    }).mount();
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Initialize testimonials carousel
->>>>>>> Stashed changes
-    new Splide('.carousel-testimony', {
-        type: 'loop',
-        perPage: 1,
-        autoplay: true,
-<<<<<<< Updated upstream
-        interval: 3000,
-        arrows: true,
-        pagination: true
-    }).mount();
-
-    // Pricing carousel
-=======
-        interval: 3000
-    }).mount();
-
-    // Initialize pricing carousel
->>>>>>> Stashed changes
-    new Splide('.pricing-carousel', {
-        type: 'loop',
-        perPage: 3,
-        autoplay: true,
-        interval: 4000,
-<<<<<<< Updated upstream
-        gap: '2rem',
         breakpoints: {
-            992: {
-                perPage: 2
+            1024: {
+                perPage: 3,
             },
-=======
-        breakpoints: {
->>>>>>> Stashed changes
             768: {
-                perPage: 1
+                perPage: 2,
+            },
+            640: {
+                perPage: 1,
             }
         }
     }).mount();
-<<<<<<< Updated upstream
+
+    // If you need the second carousel
+    new Splide('.carousel-planos-2', {
+        type: 'loop',
+        perPage: 3,
+        perMove: 1,
+        gap: '2rem',
+        autoplay: true,
+        interval: 8000,
+        speed: 500,
+        drag: true,
+        pagination: true,
+        arrows: true,
+        breakpoints: {
+            1024: {
+                perPage: 3,
+            },
+            768: {
+                perPage: 2,
+            },
+            640: {
+                perPage: 1,
+            }
+        }
+    }).mount();
 });
-=======
-});
->>>>>>> Stashed changes
+
+new Splide('.carousel-testimony', {
+    type: 'loop',
+    perPage: 1,
+    autoplay: true,
+    interval: 8000,
+    speed: 500
+}).mount();

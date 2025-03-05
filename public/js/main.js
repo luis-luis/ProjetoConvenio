@@ -32,7 +32,6 @@
 		}, 1);
 	};
 	loader();
-
 	var carousel = function() {
 		if (document.querySelector('.carousel-testimony')) {
 			new Splide('.carousel-testimony', {
@@ -181,8 +180,6 @@
 
 })(jQuery);
 
-<<<<<<< Updated upstream
-
 // Rolagem para seção de planos 
 document.addEventListener("DOMContentLoaded", function() {
     // Verifica se há um parâmetro na URL indicando que deve rolar até a seção
@@ -198,5 +195,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
-=======
->>>>>>> Stashed changes
