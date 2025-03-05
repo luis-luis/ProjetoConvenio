@@ -272,7 +272,7 @@
 				<span style="font-size: 18px;">(Passe para o lado)</span>
 			</div>
 		</div>
-		
+
 		<!-- inicio carrosel -->
 		<div class="row ftco-animate">
 			<div class="col-md-12">
@@ -310,7 +310,7 @@
 											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
 											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
 										</ul>
-										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+										<a href="{{route('site.plano-2')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
 									</div>
 								</div>
 							</li>
@@ -328,7 +328,7 @@
 											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
 											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
 										</ul>
-										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+										<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
 									</div>
 								</div>
 							</li>
