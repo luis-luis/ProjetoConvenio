@@ -208,55 +208,55 @@
 </section>
 
 <section class="ftco-section testimony-section" style="background-image: url('images/bg_2.jpg');">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2>Quem conhece, aprova</h2>
-            </div>
-        </div>
-        <div class="row ftco-animate">
-            <div class="col-md-12">
-                <div class="splide carousel-testimony">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-quote-left"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p class="mb-4">Bla bla bla outro texto de feedback</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="pl-3">
-                                                <p class="name">Roger S.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-quote-left"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p class="mb-4">Bla bla bla outro texto</p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="pl-3">
-                                                <p class="name">Roberta M.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- Add more testimonials following the same pattern -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row justify-content-center pb-5 mb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h2>Quem conhece, aprova</h2>
+			</div>
+		</div>
+		<div class="row ftco-animate">
+			<div class="col-md-12">
+				<div class="splide carousel-testimony">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide">
+								<div class="testimony-wrap py-4">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fa fa-quote-left"></span>
+									</div>
+									<div class="text">
+										<p class="mb-4">Bla bla bla outro texto de feedback</p>
+										<div class="d-flex align-items-center">
+											<div class="pl-3">
+												<p class="name">Roger S.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="splide__slide">
+								<div class="testimony-wrap py-4">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fa fa-quote-left"></span>
+									</div>
+									<div class="text">
+										<p class="mb-4">Bla bla bla outro texto</p>
+										<div class="d-flex align-items-center">
+											<div class="pl-3">
+												<p class="name">Roberta M.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!-- Add more testimonials following the same pattern -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- Planos novos -->
@@ -272,6 +272,7 @@
 				<span style="font-size: 18px;">(Passe para o lado)</span>
 			</div>
 		</div>
+		
 		<!-- inicio carrosel -->
 		<div class="row ftco-animate">
 			<div class="col-md-12">
@@ -299,7 +300,7 @@
 							<!-- Second Plan -->
 							<li class="splide__slide">
 								<div class="block-7 planos-wrap py-4">
-									<<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
+									<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Intermediário</span>
 										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
@@ -317,7 +318,7 @@
 							<!-- Third Plan -->
 							<li class="splide__slide">
 								<div class="block-7 planos-wrap py-4">
-								<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
+									<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Avançado</span>
 										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
@@ -337,7 +338,6 @@
 			</div>
 		</div>
 	</div>
-
 </section>
 
 <section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
