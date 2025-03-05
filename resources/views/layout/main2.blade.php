@@ -43,9 +43,9 @@
         
 
           <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
-          <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
+          <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="naotemainda.html" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="{{route('site.convenioempresa')}}" class="nav-link">Para empresas</a></li>
         </ul>
 
@@ -87,11 +87,11 @@
         <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
           <!-- <h2 class="footer-heading">Quick Links</h2> -->
           <ul class="list-unstyled">
-            <li><a href="#naoexiste" class="py-2 d-block">Termos de uso</a></li>
-            <li><a href="#naoexiste" class="py-2 d-block">Politica de privacidade</a></li>
-            <li><a href="#naoexiste" class="py-2 d-block">Blog</a></li>
+            <li><a href="naotemainda.html" class="py-2 d-block">Termos de uso</a></li>
+            <li><a href="naotemainda.html" class="py-2 d-block">Politica de privacidade</a></li>
+            <li><a href="naotemainda.html" class="py-2 d-block">Blog</a></li>
             <li><a href="{{ route('site.contatos2')}}" class="py-2 d-block">Contato</a></li>
-            <li><a href="#naoexiste" class="py-2 d-block">Carreiras</a></li>
+            <li><a href="naotemainda.html" class="py-2 d-block">Carreiras</a></li>
             <li><a href="#topo" class="py-2 d-block">Como funciona</a></li>
           </ul>
         </div>
