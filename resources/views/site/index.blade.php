@@ -299,16 +299,36 @@
 							<!-- Second Plan -->
 							<li class="splide__slide">
 								<div class="block-7 planos-wrap py-4">
-									<!-- Keep existing content, just wrap in splide__slide -->
-									<!-- Your existing plan content here -->
+									<<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Intermediário</span>
+										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
+										<ul class="pricing-text mb-5">
+											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+										</ul>
+										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+									</div>
 								</div>
 							</li>
 
 							<!-- Third Plan -->
 							<li class="splide__slide">
 								<div class="block-7 planos-wrap py-4">
-									<!-- Keep existing content, just wrap in splide__slide -->
-									<!-- Your existing plan content here -->
+								<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Avançado</span>
+										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
+										<ul class="pricing-text mb-5">
+											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+										</ul>
+										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+									</div>
 								</div>
 							</li>
 						</ul>
