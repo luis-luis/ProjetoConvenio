@@ -33,3 +33,5 @@ Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contato
 Route::get('/para-empresas',[ConvenioEmpresaController::class, 'index'])->name('site.convenioempresa');
 
 Route::get('/credenciamento',[CredenciamentoController::class, 'index'])->name('site.credenciamentos');
+
+Route::get('/contatos', [ContatoController::class, 'index'])->name('site.contatos2');

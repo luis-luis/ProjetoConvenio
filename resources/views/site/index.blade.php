@@ -8,7 +8,7 @@
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 			<div class="col-md-11 ftco-animate text-center">
 				<h1 class="mb-4" style="text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.3);"> Todo cuidado e carinho para o seu pet bonzinho. Somos GoodPet </h1>
-				<p><a href="#" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p>
+				<p><a href="#section-counter" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p>
 			</div>
 		</div>
 	</div>
@@ -18,7 +18,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-				<div class="d-block services text-center">
+				<div class="d-block services active text-center">
 					<div class="icon d-flex align-items-center justify-content-center">
 						<span class="fa-solid fa-money-bills"></span>
 					</div>
@@ -100,7 +100,6 @@
 	</div>
 </section>
 
-
 <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
 		<div class="row">
@@ -115,7 +114,6 @@
 					<div class="img img-2 ml-md-2" style="background-image:url(images/about-3.jpg);"></div>
 				</div>
 			</div>
-
 			<div class="col-lg-6">
 				<div class="heading-section mb-5 mt-5 mt-lg-0">
 					<h2 class="mb-3">Dúvidas frequentes</h2>
@@ -210,98 +208,59 @@
 </section>
 
 <section class="ftco-section testimony-section" style="background-image: url('images/bg_2.jpg');">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Quem conhece, aprova</h2>
-			</div>
-		</div>
-		<div class="row ftco-animate">
-			<div class="col-md-12">
-				<div class="carousel-testimony owl-carousel ftco-owl">
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto de feedback</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_1.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roger S.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roberta M.</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_3.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Tatiane I.</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_1.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimony-wrap py-4">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-							<div class="text">
-								<p class="mb-4">Bla bla bla outro texto</p>
-								<div class="d-flex align-items-center">
-									<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)"></div> -->
-									<div class="pl-3">
-										<p class="name">Roger Scott</p>
-										<!-- <span class="position">Marketing Manager</span> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2>Quem conhece, aprova</h2>
+            </div>
+        </div>
+        <div class="row ftco-animate">
+            <div class="col-md-12">
+                <div class="splide carousel-testimony">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="testimony-wrap py-4">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p class="mb-4">Bla bla bla outro texto de feedback</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="pl-3">
+                                                <p class="name">Roger S.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="testimony-wrap py-4">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p class="mb-4">Bla bla bla outro texto</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="pl-3">
+                                                <p class="name">Roberta M.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Add more testimonials following the same pattern -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-
 <!-- Planos novos -->
+
 <section id="planos" class="planos-section ftco-section bg-light">
 	<div class="overlay"></div>
 	<div class="container">

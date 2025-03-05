@@ -32,31 +32,26 @@
 		}, 1);
 	};
 	loader();
-
-	// var carousel = function() {
-	// 	$('.carousel-testimony').owlCarousel({
-	// 		center: true,
-	// 		loop: true,
-	// 		items:1,
-	// 		margin: 30,
-	// 		stagePadding: 0,
-	// 		nav: false,
-	// 		navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-	// 		responsive:{
-	// 			0:{
-	// 				items: 1
-	// 			},
-	// 			600:{
-	// 				items: 2
-	// 			},
-	// 			1000:{
-	// 				items: 3
-	// 			}
-	// 		}
-	// 	});
-	// };
-	// carousel();
-	
+	var carousel = function() {
+		if (document.querySelector('.carousel-testimony')) {
+			new Splide('.carousel-testimony', {
+				type: 'loop',
+				perPage: 3,
+				perMove: 1,
+				gap: '2rem',
+				pagination: false,
+				breakpoints: {
+					1000: {
+						perPage: 2,
+					},
+					600: {
+						perPage: 1,
+					}
+				}
+			}).mount();
+		}
+	};
+	carousel();
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
@@ -184,7 +179,6 @@
 	$('.appointment_time').timepicker();
 
 })(jQuery);
-
 
 // Rolagem para seção de planos 
 document.addEventListener("DOMContentLoaded", function() {

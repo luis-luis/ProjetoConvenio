@@ -9808,3 +9808,7 @@ textarea.form-control {
     color: gray;        /* Cor cinza */
     font-weight: normal; /* Não tão destacado */
 }
+
+.splide__slide {
+  padding: 15px;
+}

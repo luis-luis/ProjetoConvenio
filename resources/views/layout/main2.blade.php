@@ -29,7 +29,10 @@
 
 <body id="topo">
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
+  <!-- navbar -->
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{route('site.index')}}"><span class="flaticon-pawprint-1 mr-2"></span>Good Pet</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +40,8 @@
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
+        
+
           <li class="nav-item"><a href="/?scroll=planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="vet.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
@@ -61,7 +66,7 @@
         <a class="btn btn-success" href="naotemainda.html" role="button">Simule um plano</a>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- END nav -->
 
   @yield('content')
@@ -128,6 +133,7 @@
   <!-- jQuery e dependências -->
   <script src="js/jquery.min.js"></script>
   <script src="js/splide.min.js"></script>
+  <script src="js/carousel.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
 
   <!-- Plugins e bibliotecas -->
@@ -136,6 +142,7 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
   <script src="js/jquery.mask.min.js"></script>
   <script src="js/maskphone.js"></script>
+
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
