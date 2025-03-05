@@ -1,120 +1,59 @@
-// $(document).ready(function () {
-//     const owl = $('.owl-carousel');
-//     $(".carousel-planos").owlCarousel({
-//         loop: true,
-//         margin: 30,
-//         nav: true,
-//         dots: true,
-//         autoplay: true,
-//         autoplayTimeout: 8000, //8 segundos (tempo em ms)
-//         responsive: {
-//             0: {
-//                 items: 1
-//             },
-//             768: {
-//                 items: 2
-//             },
-//             1024: {
-//                 items: 3
-//             }
-//         }
-//     });
-
-//     $(".carousel-planos-2").owlCarousel({
-//         loop: true,
-//         margin: 30,
-//         nav: true,
-//         dots: true,
-//         autoplay: true,
-//         autoplayTimeout: 8000, //8 segundos (tempo em ms)
-//         responsive: {
-//             0: {
-//                 items: 1
-//             },
-//             768: {
-//                 items: 2
-//             },
-//             1024: {
-//                 items: 3
-//             }
-//         }
-//     });
-
-$(document).ready(function () {
-    // First carousel
-    $(".carousel-planos").owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: true,
-        dots: true,
+document.addEventListener('DOMContentLoaded', function () {
+    // Plans carousel
+    new Splide('.carousel-planos', {
+        type: 'loop',
+        perPage: 3,
+        perMove: 1,
+        gap: '2rem',
         autoplay: true,
-        autoplayTimeout: 8000,
-        touchDrag: true,
-        mouseDrag: true,
-        smartSpeed: 500,
-        preventScrollOnTouch: 'force', // Prevents scroll issues
-
-        ondrag: function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-        },
-
-        responsive: {
-            0: { items: 1 },
-            768: { items: 2 },
-            1024: { items: 3 }
+        interval: 8000,
+        speed: 500,
+        drag: true,
+        pagination: true,
+        arrows: true,
+        breakpoints: {
+            1024: {
+                perPage: 3,
+            },
+            768: {
+                perPage: 2,
+            },
+            640: {
+                perPage: 1,
+            }
         }
-    });
+    }).mount();
 
-    // Second carousel
-    $(".carousel-planos-2").owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: true,
-        dots: true,
+    // If you need the second carousel
+    new Splide('.carousel-planos-2', {
+        type: 'loop',
+        perPage: 3,
+        perMove: 1,
+        gap: '2rem',
         autoplay: true,
-        autoplayTimeout: 8000,
-        touchDrag: true,
-        mouseDrag: true,
-        smartSpeed: 500,
-        preventScrollOnTouch: 'force', // Prevents scroll issues
-
-        ondrag: function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-        },
-
-        responsive: {
-            0: { items: 1 },
-            768: { items: 2 },
-            1024: { items: 3 }
+        interval: 8000,
+        speed: 500,
+        drag: true,
+        pagination: true,
+        arrows: true,
+        breakpoints: {
+            1024: {
+                perPage: 3,
+            },
+            768: {
+                perPage: 2,
+            },
+            640: {
+                perPage: 1,
+            }
         }
-    });
-
-    // Prevent default touch behavior on carousel
-    $('.owl-carousel').on('touchstart touchmove', function (e) {
-        e.stopPropagation();
-    });
-
-
-    // // Quando o usuário desliza, reinicia o autoplay
-    // $(".owl-carousel").on("translated.owl.carousel", function () {
-    //     owl.trigger("stop.owl.autoplay");
-    //     setTimeout(() => owl.trigger("play.owl.autoplay", [20000]), 500);
-    // });
-
-    // Reset autoplay for first carousel only on user swipe
-    $(".carousel-planos").on("drag.owl.carousel", function () {
-        $(this).trigger("stop.owl.autoplay");
-        setTimeout(() => $(this).trigger("play.owl.autoplay", [20000]), 500);
-    });
-
-    // Reset autoplay for second carousel only on user swipe
-    $(".carousel-planos-2").on("drag.owl.carousel", function () {
-        $(this).trigger("stop.owl.autoplay");
-        setTimeout(() => $(this).trigger("play.owl.autoplay", [20000]), 500);
-    });
-
-
-
+    }).mount();
 });
+
+new Splide('.carousel-testimony', {
+    type: 'loop',
+    perPage: 1,
+    autoplay: true,
+    interval: 8000,
+    speed: 500
+}).mount();

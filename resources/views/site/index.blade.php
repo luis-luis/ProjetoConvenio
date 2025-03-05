@@ -100,52 +100,6 @@
 	</div>
 </section>
 
-<!-- <section class="ftco-counter" id="section-counter">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-				<div class="block-18 text-center">
-					<div class="text">
-						<strong class="number" data-number="50">0</strong>
-					</div>
-					<div class="text">
-						<span>Customer</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-				<div class="block-18 text-center">
-					<div class="text">
-						<strong class="number" data-number="8500">0</strong>
-					</div>
-					<div class="text">
-						<span>Professionals</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-				<div class="block-18 text-center">
-					<div class="text">
-						<strong class="number" data-number="20">0</strong>
-					</div>
-					<div class="text">
-						<span>Products</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-				<div class="block-18 text-center">
-					<div class="text">
-						<strong class="number" data-number="50">0</strong>
-					</div>
-					<div class="text">
-						<span>Pets Hosted</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
@@ -362,347 +316,50 @@
 		<!-- inicio carrosel -->
 		<div class="row ftco-animate">
 			<div class="col-md-12">
-				<div class="carousel-planos owl-carousel ftco-owl">
+				<div class="splide carousel-planos">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<!-- First Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Inicial</span>
+										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
+										<ul class="pricing-text mb-5">
+											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+										</ul>
+										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
+									</div>
+								</div>
+							</li>
 
-					<div class="item">
-						<div class="block-7 planos-wrap py-4">
-							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Inicial</span>
-								<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-								</ul>
-								<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
+							<!-- Second Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<!-- Keep existing content, just wrap in splide__slide -->
+									<!-- Your existing plan content here -->
+								</div>
+							</li>
 
-					<div class="item">
-						<div class="block-7 planos-wrap py-4">
-							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Intermediário</span>
-								<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Priority Support</li>
-								</ul>
-								<a href="{{route('site.plano-2')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
+							<!-- Third Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<!-- Keep existing content, just wrap in splide__slide -->
+									<!-- Your existing plan content here -->
+								</div>
+							</li>
+						</ul>
 					</div>
-
-					<div class="item">
-						<div class="block-7 planos-wrap py-4">
-							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Avançado</span>
-								<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Premium Support</li>
-								</ul>
-								<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-				</div>  <!-- Fim do carrossel -->
+				</div>
 			</div>
 		</div>
 	</div>
 
-	 <!-- Inicio Segundo Carrosel  -->
-	<!-- <div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Planos sem Coparticipação</h2>
-			</div>
-			<div class="d-lg-none">
-				<span style="font-size: 18px;">(Passe para o lado)</span>
-			</div>
-		</div>
-		<div class="row ftco-animate">
-			<div class="col-md-12">
-				<div class="carousel-planos-2 owl-carousel ftco-owl">
-					<div class="item">
-						<div class="block-7">
-							<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Inicial</span>
-								<span class="subtext">(sem coparticipação)</span>
-								<span class="price"><sup>R$</sup> <span class="number">49,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-								</ul>
-								<a href="{{route('site.plano-1-sc')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="block-7">
-							<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Intermediário</span>
-								<span class="subtext">(sem coparticipação)</span>
-								<span class="price"><sup>R$</sup> <span class="number">129,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>10 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>5 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>5 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Priority Support</li>
-								</ul>
-								<a href="{{route('site.plano-2-sc')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="block-7">
-							<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-							<div class="text-center p-4">
-								<span class="excerpt d-block">Pet Avançado</span>
-								<span class="subtext">(sem coparticipação)</span>
-								<span class="price"><sup>R$</sup> <span class="number">199,90</span> <sub>/mês</sub></span>
-								<ul class="pricing-text mb-5">
-									<li><span class="fa fa-check mr-2"></span>15 Dog Walk</li>
-									<li><span class="fa fa-check mr-2"></span>7 Vet Visit</li>
-									<li><span class="fa fa-check mr-2"></span>7 Pet Spa</li>
-									<li><span class="fa fa-check mr-2"></span>Premium Support</li>
-								</ul>
-								<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> Fim do Segundo Carrosel -->
-	<!-- </div> -->
 </section>
-
-
-
-<!-- Planos antigos -->
-<!-- <section id="planos" class="ftco-section bg-light">
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Conheça nossos planos</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 ftco-animate">
-				<div class="block-7">
-					<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-					<div class="text-center p-4">
-						<span class="excerpt d-block">Personal</span>
-						<span class="price"><sup>$</sup> <span class="number">49</span> <sub>/mos</sub></span>
-
-						<ul class="pricing-text mb-5">
-							<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-							<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-							<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-							<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-						</ul>
-
-						<a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="block-7">
-					<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
-					<div class="text-center p-4">
-						<span class="excerpt d-block">Business</span>
-						<span class="price"><sup>$</sup> <span class="number">79</span> <sub>/mos</sub></span>
-
-						<ul class="pricing-text mb-5">
-							<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-							<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-							<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-							<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-						</ul>
-
-						<a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="block-7">
-					<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
-					<div class="text-center p-4">
-						<span class="excerpt d-block">Ultimate</span>
-						<span class="price"><sup>$</sup> <span class="number">109</span> <sub>/mos</sub></span>
-
-						<ul class="pricing-text mb-5">
-							<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-							<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-							<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-							<li><span class="fa fa-check mr-2"></span>Free Supports</li>
-						</ul>
-
-						<a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- <section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Pets Gallery</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 ftco-animate">
-				<div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/gallery-1.jpg);">
-					<a href="images/gallery-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="fa fa-expand"></span>
-					</a>
-					<div class="desc w-100 px-4">
-						<div class="text w-100 mb-3">
-							<span>Cat</span>
-							<h2><a href="work-single.html">Persian Cat</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/gallery-2.jpg);">
-					<a href="images/gallery-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="fa fa-expand"></span>
-					</a>
-					<div class="desc w-100 px-4">
-						<div class="text w-100 mb-3">
-							<span>Dog</span>
-							<h2><a href="work-single.html">Pomeranian</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/gallery-3.jpg);">
-					<a href="images/gallery-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="fa fa-expand"></span>
-					</a>
-					<div class="desc w-100 px-4">
-						<div class="text w-100 mb-3">
-							<span>Cat</span>
-							<h2><a href="work-single.html">Sphynx Cat</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 ftco-animate">
-				<div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/gallery-4.jpg);">
-					<a href="images/gallery-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="fa fa-expand"></span>
-					</a>
-					<div class="desc w-100 px-4">
-						<div class="text w-100 mb-3">
-							<span>Cat</span>
-							<h2><a href="work-single.html">British Shorthair</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/gallery-5.jpg);">
-					<a href="images/gallery-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="fa fa-expand"></span>
-					</a>
-					<div class="desc w-100 px-4">
-						<div class="text w-100 mb-3">
-							<span>Dog</span>
-							<h2><a href="work-single.html">Beagle</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="work mb-4 img d-flex align-items-end" style="background-image: url(images/gallery-6.jpg);">
-					<a href="images/gallery-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="fa fa-expand"></span>
-					</a>
-					<div class="desc w-100 px-4">
-						<div class="text w-100 mb-3">
-							<span>Dog</span>
-							<h2><a href="work-single.html">Pug</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- <section class="ftco-section bg-light">
-	<div class="container">
-		<div class="row justify-content-center pb-5 mb-3">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-				<h2>Latest news from our blog</h2>
-			</div>
-		</div>
-		<div class="row d-flex">
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry align-self-stretch">
-					<a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_1.jpg');">
-					</a>
-					<div class="text p-4">
-						<div class="meta mb-2">
-							<div><a href="#">April 07, 2020</a></div>
-							<div><a href="#">Admin</a></div>
-							<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-						</div>
-						<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry align-self-stretch">
-					<a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_2.jpg');">
-					</a>
-					<div class="text p-4">
-						<div class="meta mb-2">
-							<div><a href="#">April 07, 2020</a></div>
-							<div><a href="#">Admin</a></div>
-							<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-						</div>
-						<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry align-self-stretch">
-					<a href="blog-single.html" class="block-20 rounded" style="background-image: url('images/image_3.jpg');">
-					</a>
-					<div class="text p-4">
-						<div class="meta mb-2">
-							<div><a href="#">April 07, 2020</a></div>
-							<div><a href="#">Admin</a></div>
-							<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-						</div>
-						<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 <section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
 	<div class="overlay"></div>
