@@ -354,12 +354,13 @@
 									<div class="select-wrap">
 										<div class="icon"><span class="fa fa-chevron-down"></span></div>
 										<select name="" id="" class="form-control">
-											<option value="">Select services</option>
-											<option value="">Cat Sitting</option>
-											<option value="">Dog Walk</option>
-											<option value="">Pet Spa</option>
-											<option value="">Pet Grooming</option>
-											<option value="">Pet Daycare</option>
+											<option value="">Selecione o plano</option>
+											<option value="">Plano pet inicial</option>
+											<option value="">Plano pet intermediario</option>
+											<option value="">Plano pet avançado</option>
+											<option value="">Plano pet inicial (sem coparticipação)</option>
+											<option value="">Plano pet intermediario (sem coparticipação)</option>
+											<option value="">Plano pet avançado (sem coparticipação)</option>
 										</select>
 									</div>
 								</div>
