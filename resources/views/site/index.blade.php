@@ -103,7 +103,7 @@
 <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 order-md-last">
+			<!-- <div class="col-lg-6 order-md-last">
 				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
 					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
 						<span class="fa fa-play"></span>
@@ -113,7 +113,7 @@
 					<div class="img img-2 mr-md-2" style="background-image:url(images/about-2.jpg);"></div>
 					<div class="img img-2 ml-md-2" style="background-image:url(images/about-3.jpg);"></div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-6">
 				<div class="heading-section mb-5 mt-5 mt-lg-0">
 					<h2 class="mb-3">Dúvidas frequentes</h2>
