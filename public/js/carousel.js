@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         perPage: 3,
         perMove: 1,
         gap: '2rem',
-        autoplay: true,
+        autoplay: false,
         interval: 8000,
         speed: 500,
         drag: true,
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         perPage: 3,
         perMove: 1,
         gap: '2rem',
-        autoplay: true,
+        autoplay: false,
         interval: 8000,
         speed: 500,
         drag: true,
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 new Splide('.carousel-testimony', {
     type: 'loop',
     perPage: 1,
-    autoplay: true,
+    autoplay: false,
     interval: 8000,
     speed: 500
 }).mount();
