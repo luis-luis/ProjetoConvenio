@@ -7,9 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
 
   <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -141,13 +139,11 @@
   <!-- jQuery e dependências -->
   <script src="js/jquery.min.js"></script>
   <script src="js/splide.min.js"></script>
-  <script src="js/carousel.js"></script>
+  <!-- <script src="js/carousel.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
 
   <!-- Plugins e bibliotecas -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script> -->
   <script src="js/jquery.mask.min.js"></script>
   <script src="js/maskphone.js"></script>
 
@@ -165,7 +161,6 @@
   <!-- Scripts personalizados -->
   <script src="js/main.js"></script>
   <script src="js/scroll.js"></script>
-  <script src="js/carousel.js"></script>
 
 </body>
 
