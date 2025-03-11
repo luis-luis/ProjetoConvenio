@@ -179,23 +179,3 @@
 	$('.appointment_time').timepicker();
 
 })(jQuery);
-
-// Rolagem para seção de planos 
-document.addEventListener("DOMContentLoaded", function() {
-    // Verifica se há um parâmetro na URL indicando que deve rolar até a seção
-    const urlParams = new URLSearchParams(window.location.search);
-    const scrollToSection = urlParams.get('scroll');
-
-    if (scrollToSection) {
-        const targetSection = document.getElementById(scrollToSection);
-        if (targetSection) {
-            setTimeout(() => {
-                targetSection.scrollIntoView({ behavior: 'smooth' });
-            }, 500); // Pequeno delay para garantir que a página carregou
-        }
-    }
-});
-
-window.addEventListener('beforeunload', function() {
-	window.scrollTo(0, 0);
-  });
