@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="topo">
+<body id="#topo">
   <!-- navbar -->
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -139,7 +139,7 @@
   <!-- jQuery e dependências -->
   <script src="js/jquery.min.js"></script>
   <script src="js/splide.min.js"></script>
-  <!-- <script src="js/carousel.js"></script> -->
+  <script src="js/carousel.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
 
