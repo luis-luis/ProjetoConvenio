@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="#topo">
+<body>
   <!-- navbar -->
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -98,7 +98,6 @@
             <li><a href="naotemainda.html" class="py-2 d-block">Blog</a></li>
             <li><a href="{{ route('site.contatos2')}}" class="py-2 d-block">Contato</a></li>
             <li><a href="naotemainda.html" class="py-2 d-block">Carreiras</a></li>
-            <li><a href="#topo" class="py-2 d-block">Como funciona</a></li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
@@ -140,13 +139,12 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/splide.min.js"></script>
   <script src="js/carousel.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
   <!-- Plugins e bibliotecas -->
   <script src="js/jquery.mask.min.js"></script>
   <script src="js/maskphone.js"></script>
-
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
@@ -157,7 +155,7 @@
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-
+  
   <!-- Scripts personalizados -->
   <script src="js/main.js"></script>
   <script src="js/scroll.js"></script>
