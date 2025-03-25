@@ -10,16 +10,16 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install gd pdo pdo_mysql zip \
     && docker-php-ext-enable pdo_mysql
 
-# Instala o Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 # Permite rodar o Composer como root (evita erro no Docker)
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
 # Copia apenas o composer.json e composer.lock antes para otimizar cache
 COPY composer.json composer.lock ./
 
-# Instala dependências antes de copiar o restante do código
+# Instala o Composer após instalar dependências do PHP
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Instala dependências do projeto
 RUN composer install --no-dev --optimize-autoloader --no-progress
 
 # Copia todos os arquivos do projeto para o container

@@ -94,10 +94,12 @@ class Cloud
             return;
         }
 
-        $app->make('migrator')->resolveConnection(function ($connection) use ($app) {
+        Migrator::resolveConnectionsUsing(function ($resolver, $connection) use ($app) {
             $connection = $connection ?? $app['config']->get('database.default');
 
-            return $connection === 'pgsql' ? 'pgsql-unpooled' : $connection;
+            return $resolver->connection(
+                $connection === 'pgsql' ? 'pgsql-unpooled' : $connection
+            );
         });
     }
 
