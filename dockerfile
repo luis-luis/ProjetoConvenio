@@ -11,6 +11,18 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install gd pdo pdo_mysql zip \
     && docker-php-ext-enable pdo_mysql
 
+# Habilita o mod_rewrite do Apache (necessário pro Laravel)
+RUN a2enmod rewrite
+
+# Configura o VirtualHost para apontar para /public
+RUN echo "<VirtualHost *:80> \
+    DocumentRoot /var/www/html/public \
+    <Directory /var/www/html/public> \
+        AllowOverride All \
+        Require all granted \
+    </Directory> \
+</VirtualHost>" > /etc/apache2/sites-available/000-default.conf
+
 # Instala o Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
@@ -20,15 +32,15 @@ ENV COMPOSER_ALLOW_SUPERUSER=1
 # Copia os arquivos do projeto para o container
 COPY . .
 
-# Garante que as permissões estão corretas
+# Garante permissões corretas
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
-# Instala as dependências com otimização para produção
+# Instala dependências do PHP para produção
 RUN composer install --no-dev --optimize-autoloader --no-progress
 
-# Expor a porta 80
+# Expor a porta 80 (Render detecta automaticamente)
 EXPOSE 80
 
-# Inicia o Apache (sem rodar migrations)
+# Inicia o Apache
 CMD ["apache2-foreground"]
