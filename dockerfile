@@ -27,8 +27,8 @@ RUN chown -R www-data:www-data /var/www/html \
 # Instala as dependências com otimização para produção
 RUN composer install --no-dev --optimize-autoloader --no-progress
 
-# Expõe a porta padrão do Apache
+# Expor a porta 80
 EXPOSE 80
 
-# Comando para iniciar o servidor e rodar as migrações
-CMD ["sh", "-c", "php artisan config:cache && php artisan migrate --force && apache2-foreground"]
+# Inicia o Apache (sem rodar migrations)
+CMD ["apache2-foreground"]
