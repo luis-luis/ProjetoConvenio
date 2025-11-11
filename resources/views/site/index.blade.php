@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="hero-wrap js-fullheight" style="background-image: url('images/image_4.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight" style="background-image: url('images/photo-1623387641168-d9803ddd3f35.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -18,7 +18,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-				<div class="d-block services active text-center">
+				<div class="d-block services text-center">
 					<div class="icon d-flex align-items-center justify-content-center">
 						<span class="fa-solid fa-money-bills"></span>
 					</div>

@@ -9817,3 +9817,31 @@ textarea.form-control {
   height: 110px; /* ajusta conforme o layout */
   width: auto;
 }
+
+/* === Ajuste do carrossel planos === */
+.splide__arrows {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .splide__arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .splide__arrow {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    transition: background 0.3s;
+  }
+
+  .splide__arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+

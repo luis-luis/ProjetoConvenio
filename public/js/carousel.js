@@ -8,21 +8,28 @@ document.addEventListener('DOMContentLoaded', function () {
         autoplay: false,
         interval: 8000,
         speed: 500,
-        drag: true,
+        drag: false,
         pagination: true,
-        arrows: true,
+        arrows: false, // padrão: sem setas no desktop
         breakpoints: {
             1024: {
                 perPage: 3,
+                arrows: false,
+                drag: true,
             },
             768: {
                 perPage: 2,
+                arrows: true, // 👈 ativa no celular
+                drag: true,
             },
             640: {
                 perPage: 1,
-            }
-        }
+                arrows: true, // 👈 idem
+                drag: true,
+            },
+        },
     }).mount();
+
 
     // If you need the second carousel
     new Splide('.carousel-planos-2', {

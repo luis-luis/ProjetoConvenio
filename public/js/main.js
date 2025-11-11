@@ -42,6 +42,7 @@
 		}, 1);
 	};
 	loader();
+	
 	var carousel = function () {
 		if (document.querySelector('.carousel-testimony')) {
 			new Splide('.carousel-testimony', {
