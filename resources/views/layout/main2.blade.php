@@ -48,7 +48,7 @@
 
           <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
-          <li class="nav-item"><a href="{{route('site.credenciamentos')}}" class="nav-link">Credenciamento</a></li>
+          <li class="nav-item"><a href="naotemainda.html" class="nav-link">Credenciamento</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="{{route('site.convenioempresa')}}" class="nav-link">Para empresas</a></li>
         </ul>
