@@ -345,7 +345,7 @@
 	<div class="container">
 		<div class="row d-md-flex justify-content-end">
 			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
-				<h2 class="mb-4">Se interessou? Nos mande uma mensagem</h2>
+				<h2 class="mb-4">Se interessou? Nos mande uma mensagem! </h2>
 				<form action="#" class="appointment">
 					<div class="row">
 						<div class="col-md-12">
@@ -368,38 +368,38 @@
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Your Name">
+								<input type="text" class="form-control" placeholder="Seu nome">
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Vehicle number">
+								<input type="text" class="form-control" placeholder="Numero de telefone">
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<div class="form-group">
 								<div class="input-wrap">
 									<div class="icon"><span class="fa fa-calendar"></span></div>
-									<input type="text" class="form-control appointment_date" placeholder="Date">
+									<input type="text" class="form-control appointment_date" placeholder="Data desejada">
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
+						</div> -->
+						<!-- <div class="col-md-6">
 							<div class="form-group">
 								<div class="input-wrap">
 									<div class="icon"><span class="fa fa-clock-o"></span></div>
-									<input type="text" class="form-control appointment_time" placeholder="Time">
+									<input type="text" class="form-control appointment_time" placeholder="Horario desejado">
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+								<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensagem"></textarea>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
+								<input type="submit" value="Enviar Mensagem" class="btn btn-primary py-3 px-4">
 							</div>
 						</div>
 					</div>
