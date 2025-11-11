@@ -9812,3 +9812,8 @@ textarea.form-control {
 .splide__slide {
   padding: 15px;
 }
+
+.logo {
+  height: 110px; /* ajusta conforme o layout */
+  width: auto;
+}

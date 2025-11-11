@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
   <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -38,13 +38,16 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="{{route('site.index')}}"><span class="flaticon-pawprint-1 mr-2"></span>Good Pet</a>
+      <a class="navbar-brand" href="{{route('site.index')}}">
+        <img src="logo-goodpet-1-convertido-de-jpeg.png" alt="GoodPet" class="logo">
+        <!-- <span class="flaticon-pawprint-1 mr-2"></span>Good Pet -->
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-bars"></span> Menu
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-        
+
 
           <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
@@ -87,7 +90,7 @@
             <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
           </ul>
         </div>
-        
+
         <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
           <!-- <h2 class="footer-heading">Quick Links</h2> -->
           <ul class="list-unstyled">
@@ -153,7 +156,7 @@
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  
+
   <!-- Scripts personalizados -->
   <script src="js/main.js"></script>
   <script src="js/scroll.js"></script>
