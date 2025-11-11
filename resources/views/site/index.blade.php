@@ -287,10 +287,11 @@
 										<span class="excerpt d-block">Pet Inicial</span>
 										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
 										<ul class="pricing-text mb-5">
-											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+											<li><span class="fa fa-check mr-2"></span>Consulta generalista</li>
+											<li><span class="fa fa-check mr-2"></span>Vacinas</li>
+											<li><span class="fa fa-check mr-2"></span>Testes rápidos</li>
+											<li><span class="fa fa-check mr-2"></span>Exames Laboratoriais simples</li>
+											<li><span class="fa fa-check mr-2"></span>Procedimentos clínicos</li>
 										</ul>
 										<a href="{{route('site.plano-1')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
 									</div>
@@ -305,10 +306,12 @@
 										<span class="excerpt d-block">Pet Intermediário</span>
 										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
 										<ul class="pricing-text mb-5">
-											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+											<li><span class="fa fa-check mr-2"></span>Beneficios do Plano inicial</li>
+											<li><span class="fa fa-check mr-2"></span>Consultas especiais</li>
+											<li><span class="fa fa-check mr-2"></span>Internações e procedimento de apoio</li>
+											<li><span class="fa fa-check mr-2"></span>Procedimento Veterinários</li>
+											<li><span class="fa fa-check mr-2"></span>Exames de imagem</li>
+											<li><span class="fa fa-check mr-2"></span>Anestesias/sedação</li>
 										</ul>
 										<a href="{{route('site.plano-2')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
 									</div>
@@ -323,10 +326,10 @@
 										<span class="excerpt d-block">Pet Avançado</span>
 										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
 										<ul class="pricing-text mb-5">
-											<li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
-											<li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
-											<li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
-											<li><span class="fa fa-check mr-2"></span>Free Supports</li>
+											<li><span class="fa fa-check mr-2"></span>Beneficios do plano intermediario</li>
+											<li><span class="fa fa-check mr-2"></span>Procedimentos do trato digestivo</li>
+											<li><span class="fa fa-check mr-2"></span>Cirurgias</li>
+											<li><span class="fa fa-check mr-2"></span>Exames especializados</li>
 										</ul>
 										<a href="{{route('site.plano-3')}}" class="btn btn-primary d-block px-2 py-3">Saiba mais</a>
 									</div>
