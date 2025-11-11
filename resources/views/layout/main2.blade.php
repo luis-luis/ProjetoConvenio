@@ -159,6 +159,15 @@
 
   <!-- Scripts personalizados -->
   <script src="js/main.js"></script>
+  <script>
+    $(window).off('load'); // evita duplicação
+    $(document).ready(function() {
+      if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+        // Desativa o parallax no iOS
+        $(window).stellar = function() {};
+      }
+    });
+  </script>
   <script src="js/scroll.js"></script>
 
 </body>
