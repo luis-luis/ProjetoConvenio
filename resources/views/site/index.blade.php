@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 			<div class="col-md-11 ftco-animate text-center">
-				<h1 class="mb-4" style="text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.3);"> Todo cuidado e carinho para o seu pet bonzinho. Somos GoodPet </h1>
+				<h1 class="mb-4" style="text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.3);"> GoodPet <br> Plano de saúde animal </h1>
 				<p><a href="#section-counter" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p>
 			</div>
 		</div>
