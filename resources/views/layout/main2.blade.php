@@ -25,7 +25,8 @@
   <link rel="stylesheet" href="css/splide.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
 
-
+  
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="css/jquery.timepicker.css">
 
