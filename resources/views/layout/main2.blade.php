@@ -168,7 +168,7 @@
       }
     });
   </script>
-  <script src="js/scroll.js"></script>
+  <!-- <script src="js/scroll.js"></script> -->
 
 </body>
 

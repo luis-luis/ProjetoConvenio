@@ -207,7 +207,7 @@
 	</div>
 </section>
 
-<section class="ftco-section testimony-section" style="background-image: url('images/bg_2.jpg');">
+<section class="ftco-section testimony-section" style="background-image: url('');">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
