@@ -323,19 +323,33 @@
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Intermediário</span>
 										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
-										<ul class="pricing-text mb-5">
-											<li>Beneficios do Plano inicial</li>
-											<li>Consultas especiais</li>
-											<li>Internações e procedimento de apoio</li>
-											<li>Procedimento Veterinários</li>
-											<li>Exames de imagem</li>
-											<li>Anestesias/sedação</li>
-										</ul>
-										<button class="btn btn-primary d-block px-2 py-3"
-											data-bs-toggle="modal"
-											data-bs-target="#modalPlano2">
-											Saiba mais
-										</button>
+
+										<div class="accordion mt-4" id="accordionPlano2">
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingPlano2">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlano2" aria-expanded="false" aria-controls="collapsePlano2">
+														Ver Benefícios
+													</button>
+												</h2>
+												<div id="collapsePlano2" class="accordion-collapse collapse" aria-labelledby="headingPlano2" data-bs-parent="#accordionPlano2">
+													<div class="accordion-body text-start">
+														<ul class="pricing-text mb-0">
+															<li>Beneficios do Plano inicial</li>
+															<li>Consultas especiais</li>
+															<li>Internações e procedimento de apoio</li>
+															<li>Procedimento Veterinários</li>
+															<li>Exames de imagem</li>
+															<li>Anestesias/sedação</li>
+														</ul>
+														<button class="btn btn-primary d-block px-2 py-3 mt-3"
+															data-bs-toggle="modal"
+															data-bs-target="#modalPlano2">
+															Saiba mais
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</li>
@@ -347,17 +361,31 @@
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Avançado</span>
 										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
-										<ul class="pricing-text mb-5">
-											<li>Beneficios do plano intermediario</li>
-											<li>Procedimentos do trato digestivo</li>
-											<li>Cirurgias</li>
-											<li>Exames especializados</li>
-										</ul>
-										<button class="btn btn-primary d-block px-2 py-3"
-											data-bs-toggle="modal"
-											data-bs-target="#modalPlano3">
-											Saiba mais
-										</button>
+
+										<div class="accordion mt-4" id="accordionPlano3">
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingPlano3">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlano3" aria-expanded="false" aria-controls="collapsePlano3">
+														Ver Benefícios
+													</button>
+												</h2>
+												<div id="collapsePlano3" class="accordion-collapse collapse" aria-labelledby="headingPlano3" data-bs-parent="#accordionPlano3">
+													<div class="accordion-body text-start">
+														<ul class="pricing-text mb-0">
+															<li>Beneficios do plano intermediario</li>
+															<li>Procedimentos do trato digestivo</li>
+															<li>Cirurgias</li>
+															<li>Exames especializados</li>
+														</ul>
+														<button class="btn btn-primary d-block px-2 py-3"
+															data-bs-toggle="modal"
+															data-bs-target="#modalPlano3">
+															Saiba mais
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</li>
