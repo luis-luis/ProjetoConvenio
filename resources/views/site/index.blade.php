@@ -8,7 +8,7 @@
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 			<div class="col-md-11 ftco-animate text-center">
 				<h1 class="mb-4" style="text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.3);"> GoodPet <br> Plano de saúde animal </h1>
-				<p><a href="#section-counter" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p>
+				<!-- <p><a href="#section-counter" class="btn btn-primary mr-md-4 py-3 px-4"> Saiba mais <span class="ion-ios-arrow-forward"></span></a></p> -->
 			</div>
 		</div>
 	</div>
@@ -103,17 +103,6 @@
 <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
 		<div class="row">
-			<!-- <div class="col-lg-6 order-md-last">
-				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
-					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-						<span class="fa fa-play"></span>
-					</a>
-				</div>
-				<div class="d-flex mt-3">
-					<div class="img img-2 mr-md-2" style="background-image:url(images/about-2.jpg);"></div>
-					<div class="img img-2 ml-md-2" style="background-image:url(images/about-3.jpg);"></div>
-				</div>
-			</div> -->
 			<div class="col-lg-6">
 				<div class="heading-section mb-5 mt-5 mt-lg-0">
 					<h2 class="mb-3">Dúvidas frequentes</h2>
@@ -123,7 +112,7 @@
 					<div class="card">
 						<div class="card-header p-0" id="headingOne">
 							<h2 class="mb-0">
-								<button href="#collapseOne" class="d-flex py-3 px-4 align-items-center active justify-content-between btn btn-link" data-bs-parent="#accordion" data-bs-toggle="collapse" aria-bs-expanded="true" aria-bs-controls="collapseOne">
+								<button href="#collapseOne" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-bs-parent="#accordion" data-bs-toggle="collapse" aria-bs-expanded="true" aria-bs-controls="collapseOne">
 									<p class="mb-0">Bla bla bla titulo do texto</p>
 									<i class="fa" aria-bs-hidden="true"></i>
 								</button>

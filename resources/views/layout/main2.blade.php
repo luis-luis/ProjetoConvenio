@@ -59,7 +59,7 @@
 
         <div class="dropdown">
           <button class="navbar-button btn btn-success ml-lg-3 mt-2 mt-lg-0 dropdown-toggle"
-            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            type="button" data-bs-toggle="dropdown" aria-bs-expanded="false">
             Entrar
           </button>
           <ul class="dropdown-menu">
@@ -86,9 +86,9 @@
           <h2 class="footer-heading">Good Pet</h2>
           <p>Conheça nossas redes sociais!</p>
           <ul class="ftco-footer-social p-0">
-            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+            <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
           </ul>
         </div>
 
