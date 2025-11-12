@@ -9845,3 +9845,20 @@ textarea.form-control {
   }
 }
 
+/* Faz cada slide ter a mesma altura que o mais alto
+.splide__list {
+  display: flex;
+  align-items: stretch;
+}
+
+.planos-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.splide__slide {
+  flex: 0 0 auto; /* volta a respeitar a largura natural */
+
+

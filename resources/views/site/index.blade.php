@@ -286,18 +286,32 @@
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Inicial</span>
 										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
-										<ul class="pricing-text mb-5">
-											<!-- <li><span class="fa fa-check mr-2"></span>Consulta generalista</li>
-											<li><span class="fa fa-check mr-2"></span>Vacinas</li>
-											<li><span class="fa fa-check mr-2"></span>Testes rápidos</li>
-											<li><span class="fa fa-check mr-2"></span>Exames Laboratoriais simples</li>
-											<li><span class="fa fa-check mr-2"></span>Procedimentos clínicos</li> -->
-										</ul>
-										<button class="btn btn-primary d-block px-2 py-3"
-											data-bs-toggle="modal"
-											data-bs-target="#modalPlano1">
-											Saiba mais
-										</button>
+
+										<div class="accordion mt-4" id="accordionPlano1">
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingPlano1">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlano1" aria-expanded="false" aria-controls="collapsePlano1">
+														Ver Benefícios
+													</button>
+												</h2>
+												<div id="collapsePlano1" class="accordion-collapse collapse" aria-labelledby="headingPlano1" data-bs-parent="#accordionPlano1">
+													<div class="accordion-body text-start">
+														<ul class="pricing-text mb-0">
+															<li>Consulta generalista</li>
+															<li>Vacinas</li>
+															<li>Testes rápidos</li>
+															<li>Exames laboratoriais simples</li>
+															<li>Procedimentos clínicos</li>
+														</ul>
+														<button class="btn btn-primary d-block px-2 py-3 mt-3"
+															data-bs-toggle="modal"
+															data-bs-target="#modalPlano1">
+															Saiba mais
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</li>
@@ -310,12 +324,12 @@
 										<span class="excerpt d-block">Pet Intermediário</span>
 										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
 										<ul class="pricing-text mb-5">
-											<!-- <li><span class="fa fa-check mr-2"></span>Beneficios do Plano inicial</li>
-											<li><span class="fa fa-check mr-2"></span>Consultas especiais</li>
-											<li><span class="fa fa-check mr-2"></span>Internações e procedimento de apoio</li>
-											<li><span class="fa fa-check mr-2"></span>Procedimento Veterinários</li>
-											<li><span class="fa fa-check mr-2"></span>Exames de imagem</li>
-											<li><span class="fa fa-check mr-2"></span>Anestesias/sedação</li> -->
+											<li>Beneficios do Plano inicial</li>
+											<li>Consultas especiais</li>
+											<li>Internações e procedimento de apoio</li>
+											<li>Procedimento Veterinários</li>
+											<li>Exames de imagem</li>
+											<li>Anestesias/sedação</li>
 										</ul>
 										<button class="btn btn-primary d-block px-2 py-3"
 											data-bs-toggle="modal"
@@ -334,10 +348,10 @@
 										<span class="excerpt d-block">Pet Avançado</span>
 										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
 										<ul class="pricing-text mb-5">
-											<!-- <li><span class="fa fa-check mr-2"></span>Beneficios do plano intermediario</li>
-											<li><span class="fa fa-check mr-2"></span>Procedimentos do trato digestivo</li>
-											<li><span class="fa fa-check mr-2"></span>Cirurgias</li>
-											<li><span class="fa fa-check mr-2"></span>Exames especializados</li> -->
+											<li>Beneficios do plano intermediario</li>
+											<li>Procedimentos do trato digestivo</li>
+											<li>Cirurgias</li>
+											<li>Exames especializados</li>
 										</ul>
 										<button class="btn btn-primary d-block px-2 py-3"
 											data-bs-toggle="modal"
@@ -357,7 +371,7 @@
 
 <!-- Modal do Plano 1 -->
 <div class="modal fade" id="modalPlano1" tabindex="-1" aria-labelledby="modalPlano1Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-scrollable">
+	<div class="modal-dialog modal-xl modal-dialog-scrollable">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modalPlano1Label">Plano Pet Inicial</h5>
@@ -400,7 +414,7 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-				<a href="{{ route('site.plano-1') }}" class="btn btn-primary">Contratar plano</a>
+				<a href="{{ route('site.plano-2') }}" class="btn btn-primary">Contratar plano</a>
 			</div>
 		</div>
 	</div>
@@ -424,7 +438,7 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-				<a href="{{ route('site.plano-1') }}" class="btn btn-primary">Contratar plano</a>
+				<a href="{{ route('site.plano-3') }}" class="btn btn-primary">Contratar plano</a>
 			</div>
 		</div>
 	</div>
