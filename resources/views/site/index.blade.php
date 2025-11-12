@@ -69,29 +69,29 @@
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-stethoscope"></span></div>
 						<div class="text pl-3">
-							<h4>Bla bla bla texto</h4>
-							<p>Far far away, behind the word mountains, far from the countries.</p>
+							<h4>Consultas Medicas</h4>
+							<p>Garanta sempre o melhor atendimento para o seu animalzinho.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-customer-service"></span></div>
 						<div class="text pl-3">
-							<h4>Bla bla bla texto 2</h4>
-							<p>Far far away, behind the word mountains, far from the countries.</p>
+							<h4>Atendimento customizado</h4>
+							<p>Estamos sempre a disposição para melhor lhe atender.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-emergency-call"></span></div>
 						<div class="text pl-3">
-							<h4>Bla bla bla texto 3</h4>
-							<p>Far far away, behind the word mountains, far from the countries.</p>
+							<h4>Atendimento 24 horas</h4>
+							<p>Possuimos plantão para situações emergênciais.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-veterinarian"></span></div>
 						<div class="text pl-3">
-							<h4>Bla bla bla texto 4</h4>
-							<p>Far far away, behind the word mountains, far from the countries.</p>
+							<h4>Médicos Veterinários Especializados</h4>
+							<p> Para qualquer situação com seu pet, temos médicos veterinários de várias especialidades.</p>
 						</div>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 					<div class="card">
 						<div class="card-header p-0" id="headingOne">
 							<h2 class="mb-0">
-								<button href="#collapseOne" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-bs-parent="#accordion" data-bs-toggle="collapse" aria-bs-expanded="true" aria-bs-controls="collapseOne">
+								<button href="#collapseOne" class="d-flex py-3 px-4 align-items-center active justify-content-between btn btn-link" data-bs-parent="#accordion" data-bs-toggle="collapse" aria-bs-expanded="true" aria-bs-controls="collapseOne">
 									<p class="mb-0">Bla bla bla titulo do texto</p>
 									<i class="fa" aria-bs-hidden="true"></i>
 								</button>

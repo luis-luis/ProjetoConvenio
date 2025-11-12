@@ -43,7 +43,7 @@
         <img src="logo-goodpet-1-convertido-de-jpeg.png" alt="GoodPet" class="logo">
         <!-- <span class="flaticon-pawprint-1 mr-2"></span>Good Pet -->
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav" aria-bs-controls="ftco-nav" aria-bs-expanded="false" aria-bs-label="Toggle navigation">
         <span class="fa fa-bars"></span> Menu
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
