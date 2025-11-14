@@ -24,7 +24,7 @@
 					</div>
 					<div class="media-body">
 						<h3 class="heading">Planos com e sem cooparticipação</h3>
-						<p>Escolha entre planos com ou sem cooparticipação. Você escolhe!</p>
+						<p>Economia tanto na mensalidade, quanto na hora de usar o plano. Você que escolhe!</p>
 					</div>
 				</div>
 			</div>
@@ -34,8 +34,8 @@
 						<span class="fa-solid fa-shield-cat"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Credenciamento protegido</h3>
-						<p>Depois de credenciar seu pet, ele já estará protegido.</p>
+						<h3 class="heading">Segurança</h3>
+						<p>Fique despreocupado com a saúde do seu bichinho, a GoodPet resolve pra você!</p>
 					</div>
 				</div>
 			</div>
@@ -63,7 +63,7 @@
 			</div>
 			<div class="col-md-7 pl-md-5 py-md-5">
 				<div class="heading-section pt-md-5">
-					<h2 class="mb-4">Porque nos escolher?</h2>
+					<h2 class="mb-4">Benefícios do seu bichinho</h2>
 				</div>
 				<div class="row">
 					<div class="col-md-6 services-2 w-100 d-flex">

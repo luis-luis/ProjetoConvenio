@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="css/splide.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
 
+  <link rel="stylesheet" href="css/whats.css">
+
   
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
@@ -170,6 +172,10 @@
     });
   </script>
   <!-- <script src="js/scroll.js"></script> -->
+
+    <a href="https://wa.me/5546999099608?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20convênio%20pet."
+    class="whatsapp-float" target="blank">
+    <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
 </body>
 
