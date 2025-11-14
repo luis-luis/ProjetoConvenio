@@ -99,7 +99,7 @@
           <ul class="list-unstyled">
             <li><a href="naotemainda.html" class="py-2 d-block">Termos de uso</a></li>
             <li><a href="naotemainda.html" class="py-2 d-block">Politica de privacidade</a></li>
-            <li><a href="naotemainda.html" class="py-2 d-block">Blog</a></li>
+            <li><a href="naotemainda.html" class="py-2 d-block">F.A.Q</a></li>
             <li><a href="{{ route('site.contatos2')}}" class="py-2 d-block">Contato</a></li>
             <li><a href="naotemainda.html" class="py-2 d-block">Carreiras</a></li>
           </ul>
