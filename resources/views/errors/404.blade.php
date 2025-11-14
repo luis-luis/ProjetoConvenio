@@ -11,7 +11,8 @@
         <div class="row justify-content-center">
             <div class="col-md-8 ftco-animate">
                 <h1 class="mb-3 text-white">Erro 404</h1>
-                <p class="text-white">Ops! A página que você tentou acessar não existe.</p>
+                <p class="text-white">Ops! A página que você tentou acessar ainda não existe. <br>
+                 Mas não se preocupe. Você pode voltar para o início clicando aqui embaixo.</p>
                 <a href="{{ url('/') }}" class="btn btn-primary">Voltar para a página inicial</a>
             </div>
         </div>

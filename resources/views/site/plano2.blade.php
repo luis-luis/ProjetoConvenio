@@ -56,23 +56,28 @@
             <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
                 <div class="d-block services text-center">
                     <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa-solid fa-stethoscope"></span>
+                        <span class="fa fa-file"></span>
                     </div>
                     <div class="media-body p-4">
-                        <h3 class="heading">Mais saúde e segurança</h3>
-                        <p>Além de consultas e vacinas, este plano inclui exames básicos, acompanhamento preventivo e descontos especiais em procedimentos.</p>
+                        <h3 class="heading">Ficou interessado?</h3>
+                        <p>Clique no botão abaixo e saiba todas as vantagens ofertadas por este plano!</p>
+                        <a href="{{route ('file.download', ['filename' => 'planomedio.xlsx']) }}" 
+                        class="btn btn-success d-flex align-items-center justify-content-center">
+                        <i class="sr-only">Baixar detalhes do plano</i>Download plano Pet Medio</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
                 <div class="d-block services text-center">
                     <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-file"></span>
+                        <span class="fa-solid fa-usd"></span>
                     </div>
                     <div class="media-body p-4">
-                        <h3 class="heading">Ficou interessado?</h3>
-                        <p>Clique no botão abaixo e saiba todas as vantagens ofertadas por este plano!</p>
-                        <a href="aindanaotem.html" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-arrow-down"></span><i class="sr-only">Sabia mais</i></a>
+                        <h3 class="heading">Contrate agora</h3>
+                        <p>Garanta que a saúde do seu pet esteja em dia!</p>
+                        <a href="#" 
+                        class="btn btn-success d-flex align-items-center justify-content-center">
+                        <i class="sr-only">Contratar agora</i>Contrate agora!</a>
                     </div>
                 </div>
             </div>

@@ -100,7 +100,7 @@
 	</div>
 </section>
 
-<section class="ftco-section bg-light ftco-faqs">
+<!-- <section class="ftco-section bg-light ftco-faqs">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -194,9 +194,9 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<section class="ftco-section testimony-section" style="background-image: url('');">
+<!-- <section class="ftco-section testimony-section" style="background-image: url('');">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center pb-5 mb-3">
@@ -246,7 +246,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- Planos novos -->
 
@@ -475,10 +475,10 @@
 
 <!-- Modal do Plano 2 -->
 <div class="modal fade" id="modalPlano2" tabindex="-1" aria-labelledby="modalPlano2Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-scrollable">
+	<div class="modal-dialog modal-xl modal-dialog-scrollable">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modalPlano2Label">Plano Pet Inicial</h5>
+				<h5 class="modal-title" id="modalPlano2Label">Plano Pet intermediario</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
 			</div>
 			<div class="modal-body">
@@ -487,13 +487,82 @@
 						<strong>
 							Beneficios do Plano inicial
 						</strong>
-						<div class="text-muted">Teste do detalhamento</div>
 					</li>
-					<li>Consultas especiais</li>
-					<li>Internações e procedimento de apoio</li>
-					<li>Procedimento Veterinários</li>
-					<li>Exames de imagem</li>
-					<li>Anestesias/sedação</li>
+					<li>
+						<strong>
+							Consultas especiais
+						</strong>
+						<div class="text-muted">
+							Consulta Domiciliar
+						</div>
+						<div class="text-muted">
+							Consulta com especialistas: Urologia, Ortopedia, Cardiologia, Dermatologia, Nefrologia, Fisiatra(Fisioterapia)
+							Gastroenterologia, Endocrinologia, Felinologia, Neurologia, Nutrologia, Oftalmologia, Oncologia e Odontologia
+						</div>
+					</li>
+					<li>
+						<strong>
+							Internações e procedimento de apoio
+						</strong>
+						<div class="text-muted">
+							Internação dia e noite
+						</div><div class="text-muted">
+							Fluidoterapia (Sorotepia) *procedimento de apoio
+						</div>
+						<div class="text-muted">
+							Oxigenioterapia até 1 hora *procedimento de apoio
+						</div>
+					</li>
+					<li>
+						<strong>
+							Procedimentos Médicos Veterinários
+						</strong>
+						<div class="text-muted">
+							Curativos simples
+						</div>
+						<div class="text-muted">
+							Curativos complexos
+						</div>
+						<div class="text-muted">
+							Drenagem de abcesso (Drenagem de feridas)
+						</div>
+						<div class="text-muted">
+							Imobilização de fraturas simples
+						</div>
+						<div class="text-muted">
+							Limpeza de canal auditivo
+						</div>
+					</li>
+					<li>
+						<strong>
+							Exames de imagem
+						</strong>
+						<div class="text-muted">
+							Radiografia (até 3 posições)
+						</div>
+						<div class="text-muted">
+							Ultrassom Abdominal
+						</div>
+					</li>
+					<li>
+						<strong>
+							Anestesias/sedação
+						</strong>
+						<div class="text-muted">
+							Anestesia geral injetável
+						</div>
+						<div class="text-muted">
+							Anestesia local
+						</div>
+						<div class="text-muted">
+							Sedação
+						</div>
+					</li>
+					<li>
+						<strong>
+							Para mais informações, consultar o documento referente ao plano presente na pagina "Ver cobertura completa" 
+						</strong>
+					</li>
 				</ul>
 			</div>
 			<div class="modal-footer">
