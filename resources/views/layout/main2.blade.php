@@ -39,7 +39,7 @@
 <body>
   <!-- navbar -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light fixed-top" id="ftco-navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{route('site.index')}}">
         <img src="logo-goodpet-1-convertido-de-jpeg.png" alt="GoodPet" class="logo">
