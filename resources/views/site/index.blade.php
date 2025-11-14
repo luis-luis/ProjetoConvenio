@@ -396,16 +396,78 @@
 			</div>
 			<div class="modal-body">
 				<ul>
-					<li>Consulta generalista</li>
-					<li>Vacinas</li>
-					<li>Testes rápidos</li>
-					<li>Exames laboratoriais simples</li>
-					<li>Procedimentos clínicos</li>
+					<li class="mb-3">
+						<strong>Consulta generalista</strong>
+						<div class="text-muted">
+							Consulta expediente comercial clinico geral
+						</div>
+						<div class="text-muted">
+							Consulta de Plantão
+						</div>
+					</li>
+					<li>
+						<strong>Vacinas</strong>
+						<div class="text-muted">
+							Vacina antirrábica
+						</div>
+						<div class="text-muted">
+							Vacina multipla canina v8/v10
+						</div>
+						<div class="text-muted">
+							Vacina multipla felina v3/v4/v5
+						</div>
+						<div class="text-muted">
+							Vacina felina felv
+						</div>
+					</li>
+					<li>
+						<strong>Testes rápidos</strong>
+						<div class="text-muted">
+							Teste rápido - Leishmaniose
+						</div>
+						<div class="text-muted">
+							Teste rápido - Cinomose
+						</div>
+						<div class="text-muted">
+							Teste rápido - Glicose/glicemia
+						</div>
+						<div class="text-muted">
+							Teste rápido - Fiv e Felv
+						</div>
+					</li>
+					<li>
+						<strong>Exames laboratoriais simples</strong>
+						<div class="text-muted">
+							Hemograma completo
+						</div>
+						<div class="text-muted">
+							Alanina Aminotransferase (TGP/ALT)
+						</div>
+						<div class="text-muted">
+							Creatinina
+						</div>
+						<div class="text-muted">
+							Ureia
+						</div>
+						<div class="text-muted">
+							Urinálise (EAS)
+						</div>
+						<div class="text-muted">
+							Coproparasitológico
+						</div>
+					</li>
+					<li>
+						<strong>Procedimentos clínicos
+						</strong>
+						<div class="text-muted">
+							Coleta de material para exames cobertos
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-				<a href="{{ route('site.plano-1') }}" class="btn btn-primary">Contratar plano</a>
+				<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> -->
+				<a href="{{ route('site.plano-1') }}" class="btn btn-primary">Ver cobertura completa</a>
 			</div>
 		</div>
 	</div>
@@ -421,7 +483,12 @@
 			</div>
 			<div class="modal-body">
 				<ul>
-					<li>Beneficios do Plano inicial</li>
+					<li class="mb-3">
+						<strong>
+							Beneficios do Plano inicial
+						</strong>
+						<div class="text-muted">Teste do detalhamento</div>
+					</li>
 					<li>Consultas especiais</li>
 					<li>Internações e procedimento de apoio</li>
 					<li>Procedimento Veterinários</li>
@@ -430,8 +497,8 @@
 				</ul>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-				<a href="{{ route('site.plano-2') }}" class="btn btn-primary">Contratar plano</a>
+				<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> -->
+				<a href="{{ route('site.plano-2') }}" class="btn btn-primary">Ver cobertura completa</a>
 			</div>
 		</div>
 	</div>
@@ -454,8 +521,8 @@
 				</ul>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-				<a href="{{ route('site.plano-3') }}" class="btn btn-primary">Contratar plano</a>
+				<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> -->
+				<a href="{{ route('site.plano-3') }}" class="btn btn-primary">Ver cobertura completa</a>
 			</div>
 		</div>
 	</div>
