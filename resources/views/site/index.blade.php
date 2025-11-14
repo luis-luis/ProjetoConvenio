@@ -295,7 +295,7 @@
 														<button class="btn btn-primary d-block px-2 py-3 mt-3"
 															data-bs-toggle="modal"
 															data-bs-target="#modalPlano1">
-															Saiba mais
+															Ver detalhes do plano
 														</button>
 													</div>
 												</div>
@@ -333,7 +333,7 @@
 														<button class="btn btn-primary d-block px-2 py-3 mt-3"
 															data-bs-toggle="modal"
 															data-bs-target="#modalPlano2">
-															Saiba mais
+															Ver detalhes do plano
 														</button>
 													</div>
 												</div>
@@ -369,7 +369,7 @@
 														<button class="btn btn-primary d-block px-2 py-3"
 															data-bs-toggle="modal"
 															data-bs-target="#modalPlano3">
-															Saiba mais
+															Ver detalhes do plano
 														</button>
 													</div>
 												</div>
