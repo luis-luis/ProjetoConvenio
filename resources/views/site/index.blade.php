@@ -275,7 +275,7 @@
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Inicial</span>
 										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
-										<small class="text-muted d-block mt-1">
+										<small class="text-muted d-block mt-1" style="font-size: 14px;">
 											Valor sem coparticipação: R$ 39,90/mês
 										</small>
 
@@ -315,7 +315,7 @@
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Intermediário</span>
 										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
-										<small class="text-muted d-block mt-1">
+										<small class="text-muted d-block mt-1" style="font-size: 14px;">
 											Valor sem coparticipação: R$ 99,90/mês
 										</small>
 
@@ -356,7 +356,7 @@
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Avançado</span>
 										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
-										<small class="text-muted d-block mt-1">
+										<small class="text-muted d-block mt-1" style="font-size: 14px;">
 											Valor sem coparticipação: R$ 209,90/mês
 										</small>
 
