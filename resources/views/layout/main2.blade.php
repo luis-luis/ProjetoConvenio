@@ -51,16 +51,17 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
 
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="planosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Planos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="planosDropdown">
+            <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#planos">Com coparticipação</a></li>
               <li><a class="dropdown-item" href="#planos-sc">Sem coparticipação</a></li>
             </ul>
-          </li>
+          </li> -->
 
+          <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Credenciamento</a></li>
           <!-- <li class="nav-item"><a href="naotemainda.html" class="nav-link">Blog</a></li> -->
