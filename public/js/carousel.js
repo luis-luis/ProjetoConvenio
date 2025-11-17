@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // If you need the second carousel
-    new Splide('.carousel-planos-2', {
+    new Splide('.carousel-planos-sc', {
         type: 'loop',
         perPage: 3,
         perMove: 1,

@@ -45,8 +45,8 @@
 						<span class="fa-solid fa-file-medical"></span>
 					</div>
 					<div class="media-body">
-						<h3 class="heading">Escolha o melhor plano</h3>
-						<p>Simule o melhor plano personalizado para seu pet!</p>
+						<h3 class="heading">O melhor plano para o seu pet.</h3>
+						<p>A GoodPet é uma das únicas operadoras do Brasil que oferece uma diversidade ampla de planos para seu bichinho de estimação.</p>
 					</div>
 				</div>
 			</div>
@@ -70,28 +70,28 @@
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-stethoscope"></span></div>
 						<div class="text pl-3">
 							<h4>Consultas Medicas</h4>
-							<p>Garanta sempre o melhor atendimento para o seu animalzinho.</p>
+							<p>Naquele momento inesperado, seu pet tem acesso aos médicos veterinários credenciados a GoodPet.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
-						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-customer-service"></span></div>
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-veterinarian"></span></div>
 						<div class="text pl-3">
-							<h4>Atendimento customizado</h4>
-							<p>Estamos sempre a disposição para melhor lhe atender.</p>
+							<h4>Exames</h4>
+							<p>Acesso a exames de imagem e análises laboratoriais em nossas clínicas credenciadas.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-emergency-call"></span></div>
 						<div class="text pl-3">
 							<h4>Atendimento 24 horas</h4>
-							<p>Possuimos plantão para situações emergênciais.</p>
+							<p>Seja na madrugada, durante o dia ou a noite, assim que necessário seu bichinho será atendido.</p>
 						</div>
 					</div>
 					<div class="col-md-6 services-2 w-100 d-flex">
 						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-veterinarian"></span></div>
 						<div class="text pl-3">
 							<h4>Médicos Veterinários Especializados</h4>
-							<p> Para qualquer situação com seu pet, temos médicos veterinários de várias especialidades.</p>
+							<p>Vários especialistas para atender a demanda certeira do seu pet.</p>
 						</div>
 					</div>
 				</div>
@@ -239,7 +239,7 @@
 									</div>
 								</div>
 							</li>
-							<!-- Add more testimonials following the same pattern -->
+							Add more testimonials following the same pattern 
 						</ul>
 					</div>
 				</div>
@@ -369,6 +369,144 @@
 														<button class="btn btn-primary d-block px-2 py-3"
 															data-bs-toggle="modal"
 															data-bs-target="#modalPlano3">
+															Ver detalhes do plano
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Planos novos sem coparticipação -->
+
+<section id="planos-sc" class="planos-section ftco-section bg-light">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row justify-content-center pb-5 mb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h2>Conheça nossos planos sem coparticipação</h2>
+			</div>
+			<div class="d-lg-none">
+				<span style="font-size: 18px;">(Passe para o lado)</span>
+			</div>
+		</div>
+
+		<!-- inicio carrosel -->
+		<div class="row ftco-animate">
+			<div class="col-md-12">
+				<div class="splide carousel-planos-sc">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<!-- First Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Inicial</span>
+										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
+
+										<div class="accordion mt-4" id="accordionPlano1sc">
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingPlano1sc">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlano1sc" aria-expanded="false" aria-controls="collapsePlano1sc">
+														Ver Benefícios
+													</button>
+												</h2>
+												<div id="collapsePlano1sc" class="accordion-collapse collapse" aria-labelledby="headingPlano1sc" data-bs-parent="#accordionPlano1sc">
+													<div class="accordion-body text-start">
+														<ul class="pricing-text mb-0">
+															<li>Consulta generalista</li>
+															<li>Vacinas</li>
+															<li>Testes rápidos</li>
+															<li>Exames laboratoriais simples</li>
+															<li>Procedimentos clínicos</li>
+														</ul>
+														<button class="btn btn-primary d-block px-2 py-3 mt-3"
+															data-bs-toggle="modal"
+															data-bs-target="#modalPlano1sc">
+															Ver detalhes do plano
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<!-- Second Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Intermediário</span>
+										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
+
+										<div class="accordion mt-4" id="accordionPlano2sc">
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingPlano2sc">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlano2sc" aria-expanded="false" aria-controls="collapsePlano2sc">
+														Ver Benefícios
+													</button>
+												</h2>
+												<div id="collapsePlano2sc" class="accordion-collapse collapse" aria-labelledby="headingPlano2sc" data-bs-parent="#accordionPlano2sc">
+													<div class="accordion-body text-start">
+														<ul class="pricing-text mb-0">
+															<li>Beneficios do Plano inicial</li>
+															<li>Consultas especiais</li>
+															<li>Internações e procedimento de apoio</li>
+															<li>Procedimento Veterinários</li>
+															<li>Exames de imagem</li>
+															<li>Anestesias/sedação</li>
+														</ul>
+														<button class="btn btn-primary d-block px-2 py-3 mt-3"
+															data-bs-toggle="modal"
+															data-bs-target="#modalPlano2sc">
+															Ver detalhes do plano
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<!-- Third Plan -->
+							<li class="splide__slide">
+								<div class="block-7 planos-wrap py-4">
+									<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
+									<div class="text-center p-4">
+										<span class="excerpt d-block">Pet Avançado</span>
+										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
+
+										<div class="accordion mt-4" id="accordionPlano3sc">
+											<div class="accordion-item">
+												<h2 class="accordion-header" id="headingPlano3sc">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlano3sc" aria-expanded="false" aria-controls="collapsePlano3sc">
+														Ver Benefícios
+													</button>
+												</h2>
+												<div id="collapsePlano3sc" class="accordion-collapse collapse" aria-labelledby="headingPlano3sc" data-bs-parent="#accordionPlano3sc">
+													<div class="accordion-body text-start">
+														<ul class="pricing-text mb-0">
+															<li>Beneficios do plano intermediario</li>
+															<li>Procedimentos do trato digestivo</li>
+															<li>Cirurgias</li>
+															<li>Exames especializados</li>
+														</ul>
+														<button class="btn btn-primary d-block px-2 py-3"
+															data-bs-toggle="modal"
+															data-bs-target="#modalPlano3sc">
 															Ver detalhes do plano
 														</button>
 													</div>

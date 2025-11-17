@@ -27,7 +27,7 @@
 
   <link rel="stylesheet" href="css/whats.css">
 
-  
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="css/jquery.timepicker.css">
@@ -51,8 +51,16 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="planosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Planos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="planosDropdown">
+              <li><a class="dropdown-item" href="#planos">Com coparticipação</a></li>
+              <li><a class="dropdown-item" href="#planos-sc">Sem coparticipação</a></li>
+            </ul>
+          </li>
 
-          <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Credenciamento</a></li>
           <!-- <li class="nav-item"><a href="naotemainda.html" class="nav-link">Blog</a></li> -->
@@ -88,8 +96,8 @@
           <h2 class="footer-heading">Good Pet</h2>
           <p>Conheça nossas redes sociais!</p>
           <ul class="ftco-footer-social p-0">
-            <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+            <!-- <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li> -->
+            <!-- <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li> -->
             <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
           </ul>
         </div>
@@ -173,7 +181,7 @@
   </script>
   <!-- <script src="js/scroll.js"></script> -->
 
-    <a href="https://wa.me/5546999099608?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20convênio%20pet."
+  <a href="https://wa.me/5546999099608?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20convênio%20pet."
     class="whatsapp-float" target="blank">
     <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
