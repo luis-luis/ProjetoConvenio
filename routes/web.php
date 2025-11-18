@@ -7,6 +7,7 @@ use App\Http\Controllers\CredenciamentoController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PlanoController;
 use App\Http\Controllers\DownloadController;
+use App\Http\Controllers\PagamentoController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function(){
@@ -37,3 +38,6 @@ Route::get('/credenciamento',[CredenciamentoController::class, 'index'])->name('
 
 Route::get('/download/{filename}', [DownloadController::class, 'downloadFile'])->name('file.download');
 
+Route::get('/contratar-plano', [PagamentoController::class, 'contratarPlano'])->name('site.contratarplano');
+
+Route::post('/pagamento', [PagamentoController::class, 'selecionarMetodo'])->name('pagamento');

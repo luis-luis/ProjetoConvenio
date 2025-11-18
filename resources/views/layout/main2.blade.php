@@ -82,7 +82,7 @@
 
       </div>
       <div class="ml-lg-3 mt-2 mt-lg-0">
-        <a class="btn btn-success" href="naotemainda.html" role="button">Simule um plano</a>
+        <a class="btn btn-success" href="{{route('site.contratarplano')}}" role="button">Contratar um plano</a>
       </div>
     </div>
   </nav>

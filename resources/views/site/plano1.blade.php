@@ -75,7 +75,7 @@
                     <div class="media-body p-4">
                         <h3 class="heading">Contrate agora</h3>
                         <p>Garanta que a saúde do seu pet esteja em dia!</p>
-                        <a href="#" 
+                        <a href="{{ route('site.contratarplano') }}" 
                         class="btn btn-success d-flex align-items-center justify-content-center">
                         <i class="sr-only">Contratar agora</i>Contrate agora!</a>
                     </div>
