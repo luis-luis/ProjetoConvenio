@@ -274,9 +274,9 @@
 									<div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Inicial</span>
-										<span class="price"><sup>R$</sup> <span class="number">29,90</span> <sub>/mês</sub></span>
+										<span class="price"><sup>R$</sup> <span class="number">39,00</span> <sub>/mês</sub></span>
 										<small class="text-muted d-block mt-1" style="font-size: 14px;">
-											Valor sem coparticipação: R$ 39,90/mês
+											Valor sem coparticipação: R$ 69,00/mês
 										</small>
 
 										<div class="accordion mt-4" id="accordionPlano1">
@@ -314,9 +314,9 @@
 									<div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Intermediário</span>
-										<span class="price"><sup>R$</sup> <span class="number">79,90</span> <sub>/mês</sub></span>
+										<span class="price"><sup>R$</sup> <span class="number">69,00</span> <sub>/mês</sub></span>
 										<small class="text-muted d-block mt-1" style="font-size: 14px;">
-											Valor sem coparticipação: R$ 99,90/mês
+											Valor sem coparticipação: R$ 99,00/mês
 										</small>
 
 										<div class="accordion mt-4" id="accordionPlano2">
@@ -355,9 +355,9 @@
 									<div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
 									<div class="text-center p-4">
 										<span class="excerpt d-block">Pet Avançado</span>
-										<span class="price"><sup>R$</sup> <span class="number">149,90</span> <sub>/mês</sub></span>
+										<span class="price"><sup>R$</sup> <span class="number">189,00</span> <sub>/mês</sub></span>
 										<small class="text-muted d-block mt-1" style="font-size: 14px;">
-											Valor sem coparticipação: R$ 209,90/mês
+											Valor sem coparticipação: R$ 229,00/mês
 										</small>
 
 										<div class="accordion mt-4" id="accordionPlano3">
