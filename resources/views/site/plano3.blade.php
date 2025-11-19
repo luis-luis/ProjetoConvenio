@@ -8,7 +8,7 @@
         <div class="row no-gutters slider-text align-items-end">
             <div class="col-md-9 ftco-animate pb-5">
                 <p class="breadcrumbs mb-2"><span class="mr-2"></span> <span>Good Pet<i class="ion-ios-arrow-forward"></i></span></p>
-                <h1 class="mb-0 bread">Plano Pet Intermediário</h1>
+                <h1 class="mb-0 bread">Plano Pet Avançado</h1>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="media-body p-4">
                         <h3 class="heading">Proteção completa por um valor justo</h3>
-                        <p>Por R$ 149,90, você oferece ao seu pet um cuidado premium, sem se preocupar com imprevistos.</p>
+                        <p>A partir de R$ 189,90, você oferece ao seu pet um cuidado premium, sem se preocupar com imprevistos.</p>
                     </div>
                 </div>
             </div>

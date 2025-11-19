@@ -49,7 +49,7 @@
                     </div>
                     <div class="media-body p-4">
                         <h3 class="heading">Custo-benefício perfeito</h3>
-                        <p>Por apenas R$ 79,90, seu pet terá acesso a um cuidado mais abrangente e sempre que precisar.</p>
+                        <p>A partir de R$ 69,90, seu pet terá acesso a um cuidado mais abrangente e sempre que precisar.</p>
                     </div>
                 </div>
             </div>

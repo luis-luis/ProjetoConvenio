@@ -49,7 +49,7 @@
                     </div>
                     <div class="media-body p-4">
                         <h3 class="heading">Valor Acessivel</h3>
-                        <p>Por apenas R$ 29,90 seu animalzinho estará protegido.</p>
+                        <p>A partir de R$ 39,90 seu animalzinho estará protegido.</p>
                     </div>
                 </div>
             </div>
