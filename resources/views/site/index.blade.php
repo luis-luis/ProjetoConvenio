@@ -588,12 +588,12 @@
 	<div class="modal-dialog modal-dialog-scrollable">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modalPlano3Label">Plano Pet Inicial</h5>
+				<h5 class="modal-title" id="modalPlano3Label">Plano Pet Avançado</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
 			</div>
 			<div class="modal-body">
 				<ul>
-					<li>Beneficios do plano intermediario</li>
+					<li>Todos os benefícios do plano intermediario</li>
 					<li>Procedimentos do trato digestivo</li>
 					<li>Cirurgias</li>
 					<li>Exames especializados</li>
