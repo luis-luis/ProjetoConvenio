@@ -74,8 +74,20 @@
             Entrar
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="naotemainda.html">Área do Tutor</a></li>
-            <li><a class="dropdown-item" href="naotemainda.html">Área da Rede Credenciada</a></li>
+            @guest
+              <li><a class="dropdown-item" href="{{ route('login') }}">Entrar</a></li>
+              <li><a class="dropdown-item" href="{{ route('register') }}">Criar conta</a></li>
+            @else
+              <li><a class="dropdown-item" href="#">Área do Tutor</a></li>
+              <li><a class="dropdown-item" href="#">Área da Rede Credenciada</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <form method="POST" action="{{ route('logout') }}">
+                  @csrf
+                  <button type="submit" class="dropdown-item">Sair</button>
+                </form>
+              </li>
+            @endguest
           </ul>
         </div>
 

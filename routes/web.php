@@ -8,6 +8,10 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PlanoController;
 use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\PagamentoController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ForgotPasswordController;
+use App\Http\Controllers\ResetPasswordController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function(){
@@ -41,3 +45,26 @@ Route::get('/download/{filename}', [DownloadController::class, 'downloadFile'])-
 Route::get('/contratar-plano', [PagamentoController::class, 'contratarPlano'])->name('site.contratarplano');
 
 Route::post('/pagamento', [PagamentoController::class, 'selecionarMetodo'])->name('pagamento');
+
+// Auth Routes
+Route::get('/login', [LoginController::class, 'showLogin'])->name('login');
+Route::post('/login', [LoginController::class, 'store'])->name('login.perform');
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [RegisterController::class, 'register'])->name('register.perform');
+
+// Password reset routes
+Route::get('/password/reset', [ForgotPasswordController::class, 'showLinkRequestForm'])->name('password.request');
+Route::post('/password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');
+Route::get('/password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])->name('password.reset');
+Route::post('/password/reset', [ResetPasswordController::class, 'reset'])->name('password.update');
+
+// placeholder dashboads (implemente depois as controllers/views reais)
+Route::get('/tutor/dashboard', function(){
+	return redirect()->route('site.index');
+})->name('tutor.dashboard');
+
+Route::get('/credenciada/dashboard', function(){
+	return redirect()->route('site.index');
+})->name('credenciada.dashboard');

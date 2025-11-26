@@ -78,6 +78,20 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        // ➤ Sua segunda conexão
+        'pgsql_render' => [
+            'driver' => 'pgsql',
+            'host' => env('RENDER_DB_HOST'),
+            'port' => env('RENDER_DB_PORT'),
+            'database' => env('RENDER_DB_DATABASE'),
+            'username' => env('RENDER_DB_USERNAME'),
+            'password' => env('RENDER_DB_PASSWORD'),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
+            'sslmode' => 'require',
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
@@ -125,7 +139,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [

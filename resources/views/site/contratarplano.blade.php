@@ -16,12 +16,12 @@
 
 <section class="ftco-section">
     <div class="container">
-        <div id="steps">
+        <form id="mainForm">
+            @csrf
+            <div id="steps">
             <!-- Etapa 1: Seleção do Plano -->
             <div class="step" id="step1">
                 <h2 class="mb-4">Escolha o seu plano</h2>
-                <form id="mainForm">
-                    @csrf
                     <div class="form-group">
                         <label>
                             <input type="radio" name="plano" value="basico" required>
@@ -41,7 +41,7 @@
                         </label>
                     </div>
                     <button type="button" class="btn btn-primary mt-3" onclick="nextStep(2)">Avançar</button>
-                </form>
+                
             </div>
 
             <!-- Etapa 2: Seleção do Método de Pagamento -->
@@ -69,14 +69,47 @@
                 <button type="button" class="btn btn-primary mt-3" onclick="nextStep(3)">Avançar</button>
             </div>
 
+            <!-- Etapa 4: Formulário de Cartão -->
+            <div class="step" id="step4" style="display:none;">
+                <h2 class="mb-4">Dados do Cartão</h2>
+                <div class="form-group">
+                    <label>Nome do Titular</label>
+                    <input type="text" name="card_holder" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Número do Cartão</label>
+                    <input type="text" name="card_number" class="form-control" maxlength="19" placeholder="0000 0000 0000 0000" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Validade (MM/AA)</label>
+                        <input type="text" name="card_expiry" class="form-control" maxlength="5" placeholder="MM/AA" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>CVV</label>
+                        <input type="text" name="card_cvv" class="form-control" maxlength="4" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Tipo do Cartão</label>
+                    <select name="card_type" class="form-control" required>
+                        <option value="credito">Crédito</option>
+                        <option value="debito">Débito</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-secondary mt-3" onclick="prevStep(2)">Voltar</button>
+                <button type="button" class="btn btn-primary mt-3" onclick="nextStep(3)">Avançar</button>
+            </div>
+
             <!-- Etapa 3: Confirmação -->
             <div class="step" id="step3" style="display: none;">
                 <h2 class="mb-4">Confirmação</h2>
                 <p><strong>Plano Selecionado:</strong> <span id="planoSelecionado"></span></p>
                 <p><strong>Método de Pagamento:</strong> <span id="metodoSelecionado"></span></p>
                 <button type="button" class="btn btn-secondary mt-3" onclick="prevStep(2)">Voltar</button>
-                <button type="submit" class="btn btn-success mt-3" onclick="submitForm()">Finalizar Pedido</button>
+                <button type="button" class="btn btn-success mt-3" data-redirect="{{ route('site.index') }}" onclick="submitForm(this.dataset.redirect)">Finalizar Pedido</button>
             </div>
+        </form>
         </div>
     </div>
 </section>
