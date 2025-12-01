@@ -62,9 +62,11 @@ Route::post('/password/reset', [ResetPasswordController::class, 'reset'])->name(
 
 // placeholder dashboads (implemente depois as controllers/views reais)
 Route::get('/tutor/dashboard', function(){
-	return redirect()->route('site.index');
-})->name('tutor.dashboard');
+	// TODO: replace with real controller/view for tutor dashboard
+	return view('auth.tutor-dashboard');
+})->middleware(['auth', 'role:tutor'])->name('tutor.dashboard');
 
 Route::get('/credenciada/dashboard', function(){
-	return redirect()->route('site.index');
-})->name('credenciada.dashboard');
+	// TODO: replace with real controller/view for credenciada dashboard
+	return view('auth.credenciada-dashboard');
+})->middleware(['auth', 'role:credenciada'])->name('credenciada.dashboard');

@@ -16,18 +16,18 @@
     <meta name="theme-color" content="#712cf9">
 
     <!-- Principal CSS do Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 
 
-    <link href="css/app.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <link href="css/stylehome.css" rel="stylesheet">
+    <link href="{{ asset('css/stylehome.css') }}" rel="stylesheet">
 
     <!-- Estilos customizados para esse template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link href="{{ asset('css/cover.css') }}" rel="stylesheet">
 
     <!-- Estilos customizados para outras paginas -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- <link href="css/custom.css" rel="stylesheet"> Sobrescreve estilos -->
 

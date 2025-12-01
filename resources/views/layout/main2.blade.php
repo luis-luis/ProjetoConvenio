@@ -14,26 +14,26 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/excanvas/r3/excanvas.min.js"></script>
     <![endif]-->
 
-  <link rel="icon" href="images/veterinario.png" type="image/png">
+  <link rel="icon" href="{{ asset('images/veterinario.png') }}" type="image/png">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 
-  <link rel="stylesheet" href="css/splide.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="{{ asset('css/splide.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
 
-  <link rel="stylesheet" href="css/whats.css">
+  <link rel="stylesheet" href="{{ asset('css/whats.css') }}">
 
 
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/jquery.timepicker.css') }}">
 
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
 <body>
@@ -41,8 +41,8 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light fixed-top" id="ftco-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="{{route('site.index')}}">
-        <img src="logo-goodpet-1-convertido-de-jpeg.png" alt="GoodPet" class="logo">
+      <a class="navbar-brand" href="{{ route('site.index') }}">
+      <img src="{{ asset('logo-goodpet-1-convertido-de-jpeg.png') }}" alt="GoodPet" class="logo">
         <!-- <span class="flaticon-pawprint-1 mr-2"></span>Good Pet -->
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav" aria-bs-controls="ftco-nav" aria-bs-expanded="false" aria-bs-label="Toggle navigation">
@@ -71,15 +71,26 @@
         <div class="dropdown">
           <button class="navbar-button btn btn-success ml-lg-3 mt-2 mt-lg-0 dropdown-toggle"
             type="button" data-bs-toggle="dropdown" aria-bs-expanded="false">
-            Entrar
+            @guest
+              Entrar
+            @else
+              Olá, {{ Auth::user()->name }}
+            @endguest
           </button>
           <ul class="dropdown-menu">
             @guest
               <li><a class="dropdown-item" href="{{ route('login') }}">Entrar</a></li>
               <li><a class="dropdown-item" href="{{ route('register') }}">Criar conta</a></li>
             @else
-              <li><a class="dropdown-item" href="#">Área do Tutor</a></li>
-              <li><a class="dropdown-item" href="#">Área da Rede Credenciada</a></li>
+              {{-- Greet the user and optionally link to role-based dashboard --}}
+              <li class="dropdown-item disabled">Olá, {{ Auth::user()->name }}</li>
+              @if (Auth::user()->role === 'tutor')
+                <li><a class="dropdown-item" href="{{ route('tutor.dashboard') }}">Minha Conta</a></li>
+              @elseif (Auth::user()->role === 'credenciada')
+                <li><a class="dropdown-item" href="{{ route('credenciada.dashboard') }}">Minha Conta</a></li>
+              @else
+                <li><a class="dropdown-item" href="{{ route('site.index') }}">Minha Conta</a></li>
+              @endif
               <li><hr class="dropdown-divider"></li>
               <li>
                 <form method="POST" action="{{ route('logout') }}">
@@ -161,28 +172,28 @@
 
 
   <!-- jQuery e dependências -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/splide.min.js"></script>
-  <script src="js/carousel.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="{{ asset('js/jquery.min.js') }}"></script>
+  <script src="{{ asset('js/splide.min.js') }}"></script>
+  <script src="{{ asset('js/carousel.js') }}"></script>
+  <script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
   <!-- Plugins e bibliotecas -->
-  <script src="js/jquery.mask.min.js"></script>
-  <script src="js/maskphone.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
+  <script src="{{ asset('js/jquery.mask.min.js') }}"></script>
+  <script src="{{ asset('js/maskphone.js') }}"></script>
+  <script src="{{ asset('js/popper.min.js') }}"></script>
+  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+  <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+  <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+  <script src="{{ asset('js/jquery.animateNumber.min.js') }}"></script>
+  <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
+  <script src="{{ asset('js/jquery.timepicker.min.js') }}"></script>
+  <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ asset('js/scrollax.min.js') }}"></script>
 
   <!-- Scripts personalizados -->
-  <script src="js/main.js"></script>
+  <script src="{{ asset('js/main.js') }}"></script>
   <script>
     $(window).off('load'); // evita duplicação
     $(document).ready(function() {
