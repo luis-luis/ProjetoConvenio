@@ -26,7 +26,22 @@ class UsersSeeder extends Seeder
             ['name' => 'Luis', 'password' => bcrypt('123456'), 'role' => 'tutor']
         );
 
-        // Mais usuários aleatórios para testes
-        User::factory(5)->create();
+        User::firstOrCreate(
+            ['email' => 'joao@example.com'],
+            ['name' => 'Joao', 'password' => bcrypt('123456'), 'role' => 'tutor']
+        );
+
+        User::firstOrCreate(
+            ['email' => 'pedrovet@example.com'],
+            ['name' => 'PedroVet', 'password' => bcrypt('123456'), 'role' => 'credenciada']
+        );
+
+        User::firstOrCreate(
+            ['email' => 'pedro@example.com'],
+            ['name' => 'Pedro', 'password' => bcrypt('123456'), 'role' => 'tutor']
+        );
+
+        // // Mais usuários aleatórios para testes
+        // User::factory(5)->create();
     }
 }

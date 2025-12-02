@@ -16,8 +16,12 @@ class AnimaisSeeder extends Seeder
      */
     public function run()
     {
-        // Cria 5 animais associados a usuários existentes
-        $users = User::factory(5)->create();
+        $users = User::all();
+
+        if ($users->isEmpty()) {
+            // fallback: caso não haja usuários, criar alguns (opcional)
+            $users = User::factory(3)->create();
+        }
 
         foreach ($users as $user) {
             Animal::factory(rand(1, 3))->create([
