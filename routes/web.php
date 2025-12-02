@@ -12,6 +12,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ForgotPasswordController;
 use App\Http\Controllers\ResetPasswordController;
+use App\Http\Controllers\TutorController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function(){
@@ -63,8 +64,12 @@ Route::post('/password/reset', [ResetPasswordController::class, 'reset'])->name(
 // placeholder dashboads (implemente depois as controllers/views reais)
 Route::get('/tutor/dashboard', function(){
 	// TODO: replace with real controller/view for tutor dashboard
-	return view('auth.tutor-dashboard');
+	return view('tutor.dashboard');
 })->middleware(['auth', 'role:tutor'])->name('tutor.dashboard');
+
+Route::get('tutor/pets', [TutorController::class, 'index'])->middleware(['auth', 'role:tutor'])->name('tutor.dashboards');
+
+Route::get('tutor/pets', [TutorController::class, 'pets'])->middleware(['auth', 'role:tutor'])->name('tutor.pets');
 
 Route::get('/credenciada/dashboard', function(){
 	// TODO: replace with real controller/view for credenciada dashboard

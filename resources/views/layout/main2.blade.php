@@ -51,20 +51,9 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
 
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="planosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Planos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#planos">Com coparticipação</a></li>
-              <li><a class="dropdown-item" href="#planos-sc">Sem coparticipação</a></li>
-            </ul>
-          </li> -->
-
           <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Rede Credenciada</a></li>
           <li class="nav-item"><a href="naotemainda.html" class="nav-link">Credenciamento</a></li>
-          <!-- <li class="nav-item"><a href="naotemainda.html" class="nav-link">Blog</a></li> -->
           <li class="nav-item"><a href="{{route('site.convenioempresa')}}" class="nav-link">Para empresas</a></li>
         </ul>
 
@@ -83,9 +72,9 @@
               <li><a class="dropdown-item" href="{{ route('register') }}">Criar conta</a></li>
             @else
               {{-- Greet the user and optionally link to role-based dashboard --}}
-              <li class="dropdown-item disabled">Olá, {{ Auth::user()->name }}</li>
               @if (Auth::user()->role === 'tutor')
-                <li><a class="dropdown-item" href="{{ route('tutor.dashboard') }}">Minha Conta</a></li>
+                <li><a class="dropdown-item" href="{{ route('tutor.dashboard') }}">Meu perfil</a></li>
+                <!-- <li><a class="dropdown-item" href="{{ route('tutor.dashboard') }}">Meus pets</li> -->
               @elseif (Auth::user()->role === 'credenciada')
                 <li><a class="dropdown-item" href="{{ route('credenciada.dashboard') }}">Minha Conta</a></li>
               @else
@@ -120,8 +109,6 @@
           <h2 class="footer-heading">Good Pet</h2>
           <p>Conheça nossas redes sociais!</p>
           <ul class="ftco-footer-social p-0">
-            <!-- <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li> -->
-            <!-- <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li> -->
             <li class="ftco-animate"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
           </ul>
         </div>
