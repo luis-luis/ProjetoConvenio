@@ -19,12 +19,56 @@
 
 </section>
 
-<section>
+<!-- <section>
   <div class="container py-5">
     <h2>Seus Pets Cadastrados</h2>
-    <!-- Aqui você pode listar os pets cadastrados pelo tutor -->
+    Aqui você pode listar os pets cadastrados pelo tutor
     <p>Clique aqui para consultar seus pets cadastrados</p>
     <a href="{{ route('tutor.pets') }}" class="btn btn-dark">Ver pets</a>
+  </div>
+
+  <div class="row">
+    <h2>Exames</h2>
+    Aqui você pode listar os exames dos pets
+    <p>Consulte os exames já feitos do seu pet</p>
+    <a href="#" class="btn btn-dark">Ver exames</a>
+  </div>
+</section> -->
+
+<section>
+  <div class="container py-5">
+
+    <div class="row g-4">
+
+      <!-- {{-- Card Pets --}} -->
+      <div class="col-md-6 col-lg-4">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <h4>Seus Pets Cadastrados</h4>
+          <p>Clique aqui para consultar seus pets cadastrados.</p>
+          <a href="{{ route('tutor.pets') }}" class="btn btn-dark">Ver pets</a>
+        </div>
+      </div>
+
+      <!-- {{-- Card Exames --}} -->
+      <div class="col-md-6 col-lg-4">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <h4>Exames</h4>
+          <p>Consulte os exames já feitos do seu pet.</p>
+          <a href="#" class="btn btn-dark">Ver exames</a>
+        </div>
+      </div>
+
+      <!-- {{-- Espaço para mais itens no futuro --}} -->
+      <div class="col-md-6 col-lg-4">
+        <div class="p-4 border rounded shadow-sm h-100">
+          <h4>Outros serviços</h4>
+          <p>Em breve você poderá acessar novas funções aqui.</p>
+          <a href="#" class="btn btn-secondary disabled">Em breve</a>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 </section>
 

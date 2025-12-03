@@ -24,6 +24,48 @@
     <h2>Seus Pets Cadastrados</h2>
     <!-- Aqui você pode listar os pets cadastrados pelo tutor -->
     <p>Aqui estarão listados os pets cadastrados pelo tutor.</p>
+    <div class="accordion" id="accordionExample">
+
+      @forelse($animais as $index => $animal)
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading{{ $index }}">
+          <button class="accordion-button {{ $index !== 0 ? 'collapsed' : '' }}"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse{{ $index }}"
+            aria-expanded="{{ $index === 0 ? 'true' : 'false' }}"
+            aria-controls="collapse{{ $index }}">
+            {{ $animal->nome }}
+          </button>
+        </h2>
+
+        <div id="collapse{{ $index }}"
+          class="accordion-collapse collapse {{ $index === 0 ? 'show' : '' }}"
+          aria-labelledby="heading{{ $index }}"
+          data-bs-parent="#accordionExample">
+
+          <div class="accordion-body">
+            <p><strong>Espécie:</strong> {{ $animal->especie }}</p>
+            <p><strong>Raça:</strong> {{ $animal->raca }}</p>
+            <p><strong>Idade:</strong> {{ $animal->idade }}</p>
+            <p><strong>Peso:</strong> {{ $animal->peso }}</p>
+          </div>
+        </div>
+      </div>
+
+      @empty
+
+      <div class="alert alert-info mt-3" role="alert">
+        Você ainda não cadastrou nenhum pet.
+      </div>
+
+      @endforelse
+
+    </div>
+
+  </div>
+
   </div>
 </section>
 

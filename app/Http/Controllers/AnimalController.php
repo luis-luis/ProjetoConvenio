@@ -2,27 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Animal;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-class TutorController extends Controller
+class AnimalController extends Controller
 {
-
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
-        return view('tutor.dashboard');
+        //
     }
-
-    public function pets()
-    {
-        $tutorId = Auth::id();
-
-        $animais = Animal::where('user_id', $tutorId)->get();
-
-        return view('tutor.pets', compact('animais'));
-    }
-
 
     /**
      * Show the form for creating a new resource.
