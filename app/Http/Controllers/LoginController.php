@@ -11,7 +11,7 @@ class LoginController extends Controller
     public function showLogin()
     {
         $user = Auth::user();
-        $animais = DB::table('animais')->all();
+        $animais = DB::table('animais')->get();
         dd($animais);
         return view('auth.login');
 
