@@ -4,13 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class LoginController extends Controller
 {
     public function showLogin()
     {
         $user = Auth::user();
-        $animais = Auth::table('animais')->getFirst();
+        $animais = DB::table('animais')->all();
         dd($animais);
         return view('auth.login');
 
