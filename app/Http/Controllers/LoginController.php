@@ -14,8 +14,8 @@ class LoginController extends Controller
 
         // dd(extension_loaded('pdo_pgsql'));
 
-        $animais = Animal::all();
-        dd($animais);
+        // $animais = Animal::all();
+        // dd($animais);
 
         return view('auth.login');
 
