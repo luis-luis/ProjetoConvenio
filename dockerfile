@@ -7,9 +7,9 @@ WORKDIR /var/www/html
 
 # --- instalar dependências do sistema e extensões PHP necessárias
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    libpng-dev libjpeg-dev libfreetype6-dev zip unzip curl libzip-dev git \
+    libpng-dev libjpeg-dev libfreetype6-dev zip unzip curl libzip-dev git libpq_dev\
     && docker-php-ext-configure gd --with-jpeg --with-freetype \
-    && docker-php-ext-install -j$(nproc) gd pdo pdo_mysql zip \
+    && docker-php-ext-install -j$(nproc) gd pdo pdo_mysql pdo_pgsql zip \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # --- habilitar mod_rewrite
