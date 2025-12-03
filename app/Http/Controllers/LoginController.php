@@ -10,7 +10,8 @@ class LoginController extends Controller
     public function showLogin()
     {
         $user = Auth::user();
-        dd($user);
+        $animais = Auth::table('animais')->getFirst();
+        dd($animais);
         return view('auth.login');
 
 
