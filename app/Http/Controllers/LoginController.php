@@ -12,10 +12,12 @@ class LoginController extends Controller
     public function showLogin()
     {
 
-        $animais = Animal::all();
-        dd($animais);
-        return view('auth.login');
+        dd(extension_loaded('pdo_pgsql'));
 
+        // $animais = Animal::all();
+        // dd($animais);
+
+        return view('auth.login');
 
     }
 
