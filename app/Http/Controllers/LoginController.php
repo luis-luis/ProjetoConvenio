@@ -9,7 +9,11 @@ class LoginController extends Controller
 {
     public function showLogin()
     {
+        $user = Auth::user();
+        dd($user);
         return view('auth.login');
+
+
     }
 
     public function store(Request $request)
