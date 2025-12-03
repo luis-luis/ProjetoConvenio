@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Animal;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -10,8 +11,8 @@ class LoginController extends Controller
 {
     public function showLogin()
     {
-        $user = Auth::user();
-        $animais = DB::table('animais')->get();
+
+        $animais = Animal::all();
         dd($animais);
         return view('auth.login');
 
